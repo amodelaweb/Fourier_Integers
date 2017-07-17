@@ -1,0 +1,1810 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>Xceed.Chart.GraphicsCore.v4.4</name>
+  </assembly>
+  <members>
+    <member name="T:Xceed.Chart.GraphicsCore.AdvancedGradientScheme">
+      <summary>Defines the possible predefined advanced gradient configurations</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.AdvancedGradientScheme.WhiteOnBlack">
+      <summary>White color points on black background.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.AdvancedGradientScheme.WhiteOnRed">
+      <summary>White color points on red background.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.AdvancedGradientScheme.WhiteOnGreen">
+      <summary>White color points on green background.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.AdvancedGradientScheme.WhiteOnBlue">
+      <summary>White color points on blue background.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.AdvancedGradientScheme.Red">
+      <summary>Red color points on black background.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.AdvancedGradientScheme.Green">
+      <summary>Green color points on black background.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.AdvancedGradientScheme.Blue">
+      <summary>Blue color points on black background.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.AdvancedGradientScheme.Sunset">
+      <summary>Dark orange color points on black background.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.AdvancedGradientScheme.NightFall1">
+      <summary>Blue and magenta color points on black background.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.AdvancedGradientScheme.NightFall2">
+      <summary>Magenta and blue color points on black background.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.AdvancedGradientScheme.Ocean1">
+      <summary>Sky blue and spring green points on blue background.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.AdvancedGradientScheme.Ocean2">
+      <summary>Spring green and sky blue points on blue background.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.AdvancedGradientScheme.Ocean3">
+      <summary>Sky blue and spring green points on dark blue background.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.AdvancedGradientScheme.Ocean4">
+      <summary>Spring green and sky blue points on dark blue background.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.AdvancedGradientScheme.CalmWater1">
+      <summary>Dodger blue and red points on sky blue background.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.AdvancedGradientScheme.CalmWater2">
+      <summary>Red and dodger blue points on sky blue background.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.AdvancedGradientScheme.Desert1">
+      <summary>Yellow and red points on white background.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.AdvancedGradientScheme.Desert2">
+      <summary>Red and yellow points on white background.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.AdvancedGradientScheme.Fire1">
+      <summary>Red and yellow points on black background.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.AdvancedGradientScheme.Fire2">
+      <summary>Yellow and red points on black background.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.AdvancedGradientScheme.Fog1">
+      <summary>Teal and light olive points on deep sky blue background.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.AdvancedGradientScheme.Fog2">
+      <summary>Light olive and teal points on deep sky blue background.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.AdvancedGradientScheme.Mahogany1">
+      <summary>Coral and indian red points on black background.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.AdvancedGradientScheme.Mahogany2">
+      <summary>Indian red and coral points on black background.</summary>
+    </member>
+    <member name="T:Xceed.Chart.GraphicsCore.AGPointShape">
+      <summary>The shape of a point in an advanced gradient.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.AGPointShape.Circle">
+      <summary>Circle shape.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.AGPointShape.Rectangle">
+      <summary>Rectangle shape with controlled rotation angle.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.AGPointShape.Line">
+      <summary>Line shape with controlled slope angle.</summary>
+    </member>
+    <member name="T:Xceed.Chart.GraphicsCore.BackplaneStyle">
+      <summary>The shape of the backplane applied on texts, legends, chart margins and labels.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.BackplaneStyle.Rectangle">
+      <summary>Rectangle.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.BackplaneStyle.Ellipse">
+      <summary>Ellipse.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.BackplaneStyle.Circle">
+      <summary>Circle.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.BackplaneStyle.CutEdgeRectangle">
+      <summary>Cut edge rectangle with controlled edge.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.BackplaneStyle.SmoothEdgeRectangle">
+      <summary>Smooth edge rectangle with controlled smooth edge.</summary>
+    </member>
+    <member name="T:Xceed.Chart.GraphicsCore.BevelType">
+      <summary>Different styles of bevel and emboss filter</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.BevelType.Inner">
+      <summary>Inner bevel and emboss</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.BevelType.Outer">
+      <summary>Outer bevel and emboss</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.BevelType.Emboss">
+      <summary>Inner and outer bevel and emboss</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.BevelType.PillowEmboss">
+      <summary>Pillow emboss</summary>
+    </member>
+    <member name="T:Xceed.Chart.GraphicsCore.BlurType">
+      <summary>Different types of blur functions.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.BlurType.Linear">
+      <summary>Specifies linear blur.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.BlurType.Radial">
+      <summary>Specifies radial blur.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.BlurType.Gaussian">
+      <summary>Specifies gaussian blur.</summary>
+    </member>
+    <member name="T:Xceed.Chart.GraphicsCore.ChartElement">
+      <summary>Enumerates the chart element types.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.ChartElement.Nothing">
+      <summary>No chart element.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.ChartElement.ControlBackground">
+      <summary>The chart background.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.ChartElement.DataPoint">
+      <summary>A data point object.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.ChartElement.SurfaceDataPoint">
+      <summary>A surface data point object.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.ChartElement.Axis">
+      <summary>An Axis object.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.ChartElement.ChartWall">
+      <summary>A chart wall object</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.ChartElement.Legend">
+      <summary>A Legend object The area inside of the Legend object excluding the area occupied by the legend data items.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.ChartElement.LegendDataItem">
+      <summary>A legend data item object.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.ChartElement.AxisStripe">
+      <summary>An axis stripe object.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.ChartElement.Label">
+      <summary>A label object.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.ChartElement.Watermark">
+      <summary>A watermark object.</summary>
+    </member>
+    <member name="T:Xceed.Chart.GraphicsCore.CursorType">
+      <summary>Enumerates the possible cursor types.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.CursorType.Default">
+      <summary>The default cursor, which is usually an arrow cursor.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.CursorType.AppStarting">
+      <summary>The cursor that appears when an application starts.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.CursorType.Arrow">
+      <summary>The arrow cursor.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.CursorType.Cross">
+      <summary>The crosshair cursor.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.CursorType.Hand">
+      <summary>The hand cursor, typically used when hovering over a Web link.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.CursorType.Help">
+      <summary>The Help cursor, which is a combination of an arrow and a question mark.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.CursorType.HSplit">
+      <summary>The cursor that appears when the mouse is positioned over a horizontal splitter bar.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.CursorType.IBeam">
+      <summary>The I-beam cursor, which is used to show where the text cursor appears when the mouse is clicked.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.CursorType.No">
+      <summary>The cursor that indicates that a particular region is invalid for the current operation.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.CursorType.NoMove2D">
+      <summary>The cursor that appears during wheel operations when the mouse is not moving, but the window can be scrolled in both a horizontal and vertical direction.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.CursorType.NoMoveHoriz">
+      <summary>The cursor that appears during wheel operations when the mouse is not moving, but the window can be scrolled in a horizontal direction.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.CursorType.NoMoveVert">
+      <summary>The cursor that appears during wheel operations when the mouse is not moving, but the window can be scrolled in a vertical direction.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.CursorType.PanEast">
+      <summary>The cursor that appears during wheel operations when the mouse is moving and the window is scrolling horizontally to the right.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.CursorType.PanNE">
+      <summary>The cursor that appears during wheel operations when the mouse is moving and the window is scrolling horizontally and vertically upward and to the right.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.CursorType.PanNorth">
+      <summary>The cursor that appears during wheel operations when the mouse is moving and the window is scrolling vertically in an upward direction.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.CursorType.PanNW">
+      <summary>The cursor that appears during wheel operations when the mouse is moving and the window is scrolling horizontally and vertically upward and to the left.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.CursorType.PanSE">
+      <summary>The cursor that appears during wheel operations when the mouse is moving and the window is scrolling horizontally and vertically downward and to the right.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.CursorType.PanSouth">
+      <summary>The cursor that appears during wheel operations when the mouse is moving and the window is scrolling vertically in a downward direction.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.CursorType.PanSW">
+      <summary>The cursor that appears during wheel operations when the mouse is moving and the window is scrolling horizontally and vertically downward and to the left.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.CursorType.PanWest">
+      <summary>The cursor that appears during wheel operations when the mouse is moving and the window is scrolling horizontally to the left.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.CursorType.SizeAll">
+      <summary>The four-headed sizing cursor, which consists of four joined arrows that point north, south, east, and west.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.CursorType.SizeNESW">
+      <summary>The two-headed diagonal (northeast/southwest) sizing cursor.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.CursorType.SizeNS">
+      <summary>The two-headed vertical (north/south) sizing cursor.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.CursorType.SizeNWSE">
+      <summary>The two-headed diagonal (northwest/southeast) sizing cursor.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.CursorType.SizeWE">
+      <summary>The two-headed horizontal (west/east) sizing cursor.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.CursorType.UpArrow">
+      <summary>The up arrow cursor, typically used to identify an insertion point.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.CursorType.VSplit">
+      <summary>The cursor that appears when the mouse is positioned over a vertical splitter bar.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.CursorType.WaitCursor">
+      <summary>The wait cursor, typically an hourglass shape.</summary>
+    </member>
+    <member name="T:Xceed.Chart.GraphicsCore.FillEffectType">
+      <summary>Defines the possible fill effects.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.FillEffectType.Color">
+      <summary>Solid color fill effect.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.FillEffectType.Gradient">
+      <summary>A fill effect based on two colors.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.FillEffectType.Image">
+      <summary>A fill effect based on an Image (texture filling).</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.FillEffectType.Pattern">
+      <summary>A fill effect based on an pattern with foreground and background colors.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.FillEffectType.AdvancedGradient">
+      <summary>A fill effect based on an arbitrary number of points with different shape, color, intensity and angle.</summary>
+    </member>
+    <member name="T:Xceed.Chart.GraphicsCore.FrameBevelStyle">
+      <summary>Defines the bevel style of a standard frame. You may need a frame when you want your control background to be more consistent with the other Windows controls
+displayed by your form. For more information see the Frame object in the Object Reference.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.FrameBevelStyle.None">
+      <summary>The bevel is disabled.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.FrameBevelStyle.Raised">
+      <summary>Configures a raised bevel.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.FrameBevelStyle.Sunken">
+      <summary>Configures a sunken bevel.</summary>
+    </member>
+    <member name="T:Xceed.Chart.GraphicsCore.FrameType">
+      <summary>The type of the frame applied on backplanes and chart background.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.FrameType.None">
+      <summary>No frame is applied.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.FrameType.Standard">
+      <summary>A standard windows frame type with inner and outer bevels.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.FrameType.Image">
+      <summary>An image border with fill effect, lighting effect and shadow.</summary>
+    </member>
+    <member name="T:Xceed.Chart.GraphicsCore.GlowType">
+      <summary>Different styles of glow filter</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.GlowType.Inner">
+      <summary>Inner glow</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.GlowType.Outer">
+      <summary>Outer glow</summary>
+    </member>
+    <member name="T:Xceed.Chart.GraphicsCore.GradientStyle">
+      <summary>Defines the style of the gradient or in other words the way the starting color fades into the ending color. For more information see the FillEffect object
+description in the Object Reference.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.GradientStyle.Horizontal">
+      <summary>Horizontal gradient.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.GradientStyle.Vertical">
+      <summary>Vertical gradient.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.GradientStyle.DiagonalUp">
+      <summary>Diagonal gradient with direction from the bottom left corner to the top right corner.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.GradientStyle.DiagonalDown">
+      <summary>Diagonal gradient with direction from the bottom right corner to the top left corner.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.GradientStyle.FromCorner">
+      <summary>Diagonal gradient starting from one of the four corners.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.GradientStyle.FromCenter">
+      <summary>Gradient starting from the center.</summary>
+    </member>
+    <member name="T:Xceed.Chart.GraphicsCore.GradientVariant">
+      <summary>The variant of the gradient style. All gradient styles have four gradients except GradientStyle.FromCenter, which has only two.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.GradientVariant.Variant1">
+      <summary>Variant 1</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.GradientVariant.Variant2">
+      <summary>Variant 2</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.GradientVariant.Variant3">
+      <summary>Variant 3</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.GradientVariant.Variant4">
+      <summary>Variant 4</summary>
+    </member>
+    <member name="T:Xceed.Chart.GraphicsCore.HorzAlign">
+      <summary>The horizontal alignment of texts or other visual objects relative to an origin (margin) point.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.HorzAlign.Center">
+      <summary>The object is horizontally centered relative to the origin point.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.HorzAlign.Left">
+      <summary>The object's left side is aligned with the origin point.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.HorzAlign.Right">
+      <summary>The object's right side is aligned with the origin point.</summary>
+    </member>
+    <member name="T:Xceed.Chart.GraphicsCore.ImageFilterType">
+      <summary>Defines the supported image filters</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.ImageFilterType.Blur">
+      <summary>Blur filter</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.ImageFilterType.Glow">
+      <summary>Glow filter</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.ImageFilterType.Lighting">
+      <summary>Lighting filter</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.ImageFilterType.BevelAndEmboss">
+      <summary>BevelAndEmboss filter</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.ImageFilterType.Other">
+      <summary>Not specified (reserved)</summary>
+    </member>
+    <member name="T:Xceed.Chart.GraphicsCore.ImageFrameType">
+      <summary>Defines the type of the image frame.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.ImageFrameType.None">
+      <summary>None</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.ImageFrameType.Raised">
+      <summary>Raised</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.ImageFrameType.Sunken">
+      <summary>Sunken</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.ImageFrameType.Emboss">
+      <summary>Emboss</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.ImageFrameType.Embed">
+      <summary>Embed</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.ImageFrameType.Rounded">
+      <summary>Rounded</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.ImageFrameType.RoundedTop">
+      <summary>Rounded Top</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.ImageFrameType.RoundedBottom">
+      <summary>Rounded Bottom</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.ImageFrameType.RoundedOpenR">
+      <summary>Rounded with opened right side</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.ImageFrameType.RoundedOpenL">
+      <summary>Rounded with opened left side</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.ImageFrameType.RoundedOpenRL">
+      <summary>Rounded with opened left and right sides</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.ImageFrameType.Colonial">
+      <summary>Colonial</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.ImageFrameType.Rectangle">
+      <summary>Rectangle</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.ImageFrameType.RectangleInnerRounded">
+      <summary>Rectangular frame with rounded inner rectangle</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.ImageFrameType.RectangleOuterRounded">
+      <summary>Rounded outer rectangular frame with sharp inner rectangle</summary>
+    </member>
+    <member name="T:Xceed.Chart.GraphicsCore.ImageType">
+      <summary>Enumerates the image types supported by the control for rendering</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.ImageType.BMP">
+      <summary>BMP</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.ImageType.JPEG">
+      <summary>JPEG</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.ImageType.PNG">
+      <summary>PNG</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.ImageType.GIF">
+      <summary>GIF</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.ImageType.TIFF">
+      <summary>TIFF</summary>
+    </member>
+    <member name="T:Xceed.Chart.GraphicsCore.LightScheme">
+      <summary>The possible predefined light schemes</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.LightScheme.None">
+      <summary>No lighting</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.LightScheme.SoftTopLeft">
+      <summary>Single white light source with no specular light. Top left position in the scene.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.LightScheme.SoftFrontal">
+      <summary>Single white light source with no specular light. Front position in the scene.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.LightScheme.SoftTopRight">
+      <summary>Single white light source with no specular light. Top right position in the scene.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.LightScheme.ShinyTopLeft">
+      <summary>Single white light source with specular light. Top left position in the scene.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.LightScheme.ShinyFrontal">
+      <summary>Single white light source with specular light. Front position in the scene.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.LightScheme.ShinyTopRight">
+      <summary>Single white light source with specular light. Top right position in the scene.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.LightScheme.MetallicLustre">
+      <summary>Single white light source with specular and diffuse light. No ambient light component.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.LightScheme.NorthernLights">
+      <summary>Fancy lighting from three light sources with high specular.</summary>
+    </member>
+    <member name="T:Xceed.Chart.GraphicsCore.LightSourceType">
+      <summary>Defines the type of a light source.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.LightSourceType.Directional">
+      <summary>A light source that is infinitely far away from the scene. The rays of light emitted by a directional light source can be considered parallel by the time they
+reach an object.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.LightSourceType.Positional">
+      <summary>The exact position of this light source within a scene determines the effect it has on the scene.</summary>
+    </member>
+    <member name="T:Xceed.Chart.GraphicsCore.LinePattern">
+      <summary>Defines a line pattern.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.LinePattern.Solid">
+      <summary>Solid line (bit pattern 0xffff).</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.LinePattern.Dot">
+      <summary>Dotted line (bit pattern 0x3333).</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.LinePattern.Dash">
+      <summary>Dash line (bit pattern 0xff00).</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.LinePattern.DashDot">
+      <summary>Dash dot line (bit pattern 0xff18).</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.LinePattern.DashDotDot">
+      <summary>Dash dot dot line (bit pattern DashDotDot).</summary>
+    </member>
+    <member name="T:Xceed.Chart.GraphicsCore.ListStyleType">
+      <summary>Defines the shape or text of a bullet.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.ListStyleType.None">
+      <summary>No marker is shown.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.ListStyleType.Disk">
+      <summary>Default. Solid circles.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.ListStyleType.Star">
+      <summary>Solid stars.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.ListStyleType.Square">
+      <summary>Solid squares.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.ListStyleType.Decimal">
+      <summary>1, 2, 3, 4, and so on.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.ListStyleType.LowerRoman">
+      <summary>i, ii, iii, iv, and so on.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.ListStyleType.UpperRoman">
+      <summary>I, II, III, IV, and so on.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.ListStyleType.LowerAlpha">
+      <summary>a, b, c, d, and so on.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.ListStyleType.UpperAlpha">
+      <summary>A, B, C, D, and so on.</summary>
+    </member>
+    <member name="T:Xceed.Chart.GraphicsCore.MapLayout">
+      <summary>The layout used when mapping a texture on an object in the 3D scene.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.MapLayout.Stretched">
+      <summary>Stretches the texture along the X and Y axes until it fits the object. It does not preserve the original texture dimensions ratio (aspect).</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.MapLayout.Fitted">
+      <summary>Stretches the texture until its smaller dimension fits the object. This layout mode preserves the texture dimensions ratio (aspect).</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.MapLayout.Centered">
+      <summary>Similar to fitted. When used on the background object it also preserves the real original texture dimensions.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.MapLayout.Tiled">
+      <summary>Repeats the texture along the X and Y axes. This layout mode preserves the texture dimensions ratio (aspect).</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.MapLayout.StretchedToWidth">
+      <summary>Stretches the texture by width until it fits. This layout mode preserves the texture dimensions ratio (aspect).</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.MapLayout.StretchedToHeight">
+      <summary>Stretches the texture by height until it fits. This layout mode preserves the texture dimensions ratio (aspect).</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.MapLayout.CropFitted">
+      <summary>Stretches the texture until its larger dimension fits the object. This layout mode preserves the texture dimensions ratio (aspect).</summary>
+    </member>
+    <member name="T:Xceed.Chart.GraphicsCore.MapMode">
+      <summary>Defines how textures are mapped on the surfaces of an object.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.MapMode.RelativeToObject">
+      <summary>Mapping is relative to the object. A mapping layout can be specified.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.MapMode.RelativeToViewer">
+      <summary>Mapping is relative to the viewer.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.MapMode.Sphere">
+      <summary>Environmental mapping used for special visual effects like reflection.</summary>
+    </member>
+    <member name="T:Xceed.Chart.GraphicsCore.MarginMode">
+      <summary>Possible modes for fitting a chart into the chart area.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.MarginMode.None">
+      <summary>The chart will not try to align to the chart area.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.MarginMode.Fit">
+      <summary>The chart will stretch along X and Y in order to fill as much as possible of the chart area preserving the chart proportions.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.MarginMode.Stretch">
+      <summary>The chart will stretch along X and Y in order to fill as much as possible of the chart area without breaking outside. Does not preserve the chart proportions.</summary>
+    </member>
+    <member name="T:Xceed.Chart.GraphicsCore.MouseAction">
+      <summary>Defines the possible mouse actions</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.MouseAction.MouseDown">
+      <summary>Mouse down</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.MouseAction.MouseUp">
+      <summary>Mouse up</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.MouseAction.MouseMove">
+      <summary>Mouse move</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.MouseAction.MouseLeave">
+      <summary>Mouse leave</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.MouseAction.MouseEnter">
+      <summary>Mouse enter</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.MouseAction.MouseHover">
+      <summary>Mouse hover</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.MouseAction.MouseWheel">
+      <summary>Mouse wheel</summary>
+    </member>
+    <member name="T:Xceed.Chart.GraphicsCore.PredefinedProjection">
+      <summary>Predefined view projections that enable you to set all the projection parameters with one function call.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.PredefinedProjection.Orthogonal">
+      <summary>Orthogonal 2D projection, no viewer rotation.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.PredefinedProjection.OrthogonalElevated">
+      <summary>An orthogonal projection with slightly elevated camera. Suitable for 3D pie charts.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.PredefinedProjection.OrthogonalHorizontalLeft">
+      <summary>Orthogonal 2D projection with viewer rotation for left aligned charts.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.PredefinedProjection.OrthogonalHorizontalRight">
+      <summary>Orthogonal 2D projection with viewer rotation for right aligned charts.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.PredefinedProjection.OrthogonalHalf">
+      <summary>Orthogonal 3D projection without viewer rotation.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.PredefinedProjection.OrthogonalHalfHorizontalLeft">
+      <summary>Orthogonal 3D projection with viewer rotation for left aligned charts.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.PredefinedProjection.OrthogonalHalfHorizontalRight">
+      <summary>Orthogonal 3D projection with viewer rotation for right aligned charts.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.PredefinedProjection.OrthogonalHalfRotated">
+      <summary>Orthogonal 3D projection with rotated camera.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.PredefinedProjection.OrthogonalHalfElevated">
+      <summary>Orthogonal 3D projection with elevated camera.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.PredefinedProjection.OrthogonalTop">
+      <summary>Orthogonal view from top. Suitable for contour charts.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.PredefinedProjection.Perspective">
+      <summary>A perspective projection without viewer rotation.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.PredefinedProjection.PerspectiveHorizontalLeft">
+      <summary>A perspective projection with viewer rotation for left aligned charts.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.PredefinedProjection.PerspectiveHorizontalRight">
+      <summary>A perspective projection with viewer rotation for right aligned charts.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.PredefinedProjection.PerspectiveRotated">
+      <summary>A perspective projection with slightly rotated camera.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.PredefinedProjection.PerspectiveElevated">
+      <summary>A perspective projection with slightly elevated camera.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.PredefinedProjection.PerspectiveTilted">
+      <summary>A perspective projection with slightly rotated and elevated camera. Suitable for 3D scatter and surface charts.</summary>
+    </member>
+    <member name="T:Xceed.Chart.GraphicsCore.ProjectionType">
+      <summary>Defines the projection type</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.ProjectionType.Perspective">
+      <summary>Perspective projection with depth perception, used for 3D scenes.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.ProjectionType.Orthogonal">
+      <summary>Orthogonal projection (no depth perception) suitable for 2D charts.</summary>
+    </member>
+    <member name="T:Xceed.Chart.GraphicsCore.RenderDevice">
+      <summary>Different types of rendering devices.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.RenderDevice.GDI">
+      <summary>The rendering device is GDI+.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.RenderDevice.OpenGL">
+      <summary>The rendering device is OpenGL.</summary>
+    </member>
+    <member name="T:Xceed.Chart.GraphicsCore.ShadowType">
+      <summary>Defines the type of a shadow.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.ShadowType.None">
+      <summary>No shadow at all.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.ShadowType.Solid">
+      <summary>A shadow that does not fade towards its edges. Usually the fastest mode.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.ShadowType.LinearBlur">
+      <summary>A shadow with linear attenuation.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.ShadowType.RadialBlur">
+      <summary>A shadow with radial attenuation.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.ShadowType.GaussianBlur">
+      <summary>A shadow with gausiian attenuation.</summary>
+    </member>
+    <member name="T:Xceed.Chart.GraphicsCore.TargetRenderSurface">
+      <summary>Different types of rendering surfaces.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.TargetRenderSurface.Bitmap">
+      <summary>The control renders the image to a bitmap, which is then drawn on the screen.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.TargetRenderSurface.Window">
+      <summary>The control renders directly in the window of the control.</summary>
+    </member>
+    <member name="T:Xceed.Chart.GraphicsCore.TextType">
+      <summary>Defines the used text parser.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.TextType.Simple">
+      <summary>No parser is used. The text can contain new line characters.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.TextType.XMLFormatted">
+      <summary>The XML parser is used. The text must be properly formatted according to the XML standard.</summary>
+    </member>
+    <member name="T:Xceed.Chart.GraphicsCore.VertAlign">
+      <summary>The vertical alignment of texts or other visual objects relative to an origin (margin) point.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.VertAlign.Center">
+      <summary>The object is vertically centered relative to the origin point.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.VertAlign.Top">
+      <summary>The object is below the origin point.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.VertAlign.Bottom">
+      <summary>The object is above the origin point.</summary>
+    </member>
+    <member name="T:Xceed.Chart.GraphicsCore.Vector">
+      <summary>Represents a 3-Dimensional vector with x, y and z coordinates.</summary>
+    </member>
+    <member name="T:Xceed.Chart.GraphicsCore.Vector2D">
+      <summary>Represents a 2-Dimensional vector</summary>
+    </member>
+    <member name="T:Xceed.Chart.GraphicsCore.Vector4D">
+      <summary>Represents a 4-Dimensional vector</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.Vector.#ctor(System.Single,System.Single,System.Single)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.Vector.Add(Xceed.Chart.GraphicsCore.Vector@,Xceed.Chart.GraphicsCore.Vector@)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.Vector.CalculateNormal(Xceed.Chart.GraphicsCore.Vector@,Xceed.Chart.GraphicsCore.Vector@,Xceed.Chart.GraphicsCore.Vector@)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.Vector.CalculateNormalNN(Xceed.Chart.GraphicsCore.Vector@,Xceed.Chart.GraphicsCore.Vector@,Xceed.Chart.GraphicsCore.Vector@)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.Vector.CrossProduct(Xceed.Chart.GraphicsCore.Vector@)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.Vector.CrossProductOf(Xceed.Chart.GraphicsCore.Vector@,Xceed.Chart.GraphicsCore.Vector@)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.Vector.Divide(Xceed.Chart.GraphicsCore.Vector@,System.Single)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.Vector.DotProduct(Xceed.Chart.GraphicsCore.Vector@)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.Vector.GetLength">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.Vector.GetLengthSquare">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.Vector.Invert">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.Vector.Multiply(Xceed.Chart.GraphicsCore.Vector@,System.Single)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.Vector.SetXYZ(System.Single,System.Single,System.Single)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.Vector.Subtract(Xceed.Chart.GraphicsCore.Vector@,Xceed.Chart.GraphicsCore.Vector@)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.Vector.ToString">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.Vector.Equals(Xceed.Chart.GraphicsCore.Vector)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.Vector.Normalize">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.Vector.Normalize(System.Single)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.Vector.x">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.Vector.y">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.Vector.z">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.Vector2D.#ctor(System.Single,System.Single)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.Vector2D.x">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.Vector2D.y">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.Vector4D.t">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.Vector4D.x">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.Vector4D.y">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.Vector4D.z">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="T:Xceed.Chart.GraphicsCore.AdvancedGradientFill">
+      <summary>Describes an advanced gradient.</summary>
+    </member>
+    <member name="T:Xceed.Chart.GraphicsCore.AdvancedGradientPoint">
+      <summary>Represents an advanced gradient point.</summary>
+    </member>
+    <member name="T:Xceed.Chart.GraphicsCore.AdvancedGradientPointArray">
+      <summary>This class represents an array of advanced gradient points. An advanced gradient consists of a background color and an arbitrary number of color points with
+different shape and intensity.</summary>
+    </member>
+    <member name="T:Xceed.Chart.GraphicsCore.BackgroundBase">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="T:Xceed.Chart.GraphicsCore.BevelAndEmbossFilter">
+      <summary>When present in a ImageFilters collection the BevelAndEmbossFilter class instructs the component to apply a bevel and emboss effect on the image. This effect
+is different than the bevel and emboss filter applied in Photoshop because it works by combining three samples of the image - original, highlight and dark. The
+different types of the bevel and emboss define how these images are combined.</summary>
+    </member>
+    <member name="T:Xceed.Chart.GraphicsCore.BitmapDescription">
+      <summary>Describes a BMP image response returned to the client browser.</summary>
+    </member>
+    <member name="T:Xceed.Chart.GraphicsCore.BlurFilter">
+      <summary>When present in a ImageFilters collection the BlurFilter class instructs the component to apply horizontal and vertical convolution matrices to the image.</summary>
+    </member>
+    <member name="T:Xceed.Chart.GraphicsCore.CursorChangeInteractivityOperation">
+      <summary>When present in the InteractivityOperations collection instructs the control to change the mouse cursor depending on the underlying chart object.</summary>
+    </member>
+    <member name="T:Xceed.Chart.GraphicsCore.DragEventArgs">
+      <summary>Summary description for DragEventArgs.</summary>
+    </member>
+    <member name="T:Xceed.Chart.GraphicsCore.DragOperation">
+      <summary>The base of all dragging operations</summary>
+    </member>
+    <member name="T:Xceed.Chart.GraphicsCore.FillEffectBase">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="T:Xceed.Chart.GraphicsCore.FillEffectMapping">
+      <summary>Controls how texture based fillings are mapped on the object</summary>
+    </member>
+    <member name="T:Xceed.Chart.GraphicsCore.Filter">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="T:Xceed.Chart.GraphicsCore.Frame">
+      <summary>The Frame object controls the frame applied on a particular object. The frame itself consists of four elements - the outer bevel, the bevel distance, the inner
+bevel and the frame border. With the help of the InnerStyle and OuterStyle properties you can control inner and outer bevel style. The BevelDistance property
+specifies the distance between the inner and the outer bevel. The HasBorder property allows you to enable or disable the frame border.</summary>
+    </member>
+    <member name="T:Xceed.Chart.GraphicsCore.GIFDescription">
+      <summary>Describes a GIF image response returned to the client browser</summary>
+    </member>
+    <member name="T:Xceed.Chart.GraphicsCore.GlowFilter">
+      <summary>When present in a ImageFilters collection the GlowFilter class instructs the component to lit the edges of the object with the specified glow color.</summary>
+    </member>
+    <member name="T:Xceed.Chart.GraphicsCore.ImageDescription">
+      <summary>All response types in Xceed Chart for WinForms have an associated object deriving from ImageDescription.</summary>
+    </member>
+    <member name="T:Xceed.Chart.GraphicsCore.ImageFiltersCollection">
+      <summary>Collection containing the image filters applied on an image before it is displayed.</summary>
+    </member>
+    <member name="T:Xceed.Chart.GraphicsCore.ImageFrameBase">
+      <summary>Base class for artistic frames</summary>
+    </member>
+    <member name="T:Xceed.Chart.GraphicsCore.InteractivityOperation">
+      <summary>The base class for all interactivity operations.</summary>
+    </member>
+    <member name="T:Xceed.Chart.GraphicsCore.InteractivityOperationsCollectionBase">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="T:Xceed.Chart.GraphicsCore.JPEGDescription">
+      <summary>Describes a JPEG image returned to the client browser.</summary>
+    </member>
+    <member name="T:Xceed.Chart.GraphicsCore.LightingFilter">
+      <summary>When present in a ImageFilters collection the LightingFilter class instructs the component to apply a lighting effect on the image. This effect is achieved by
+creating a bump based on the original image alpha values and then lighting calculations are performed for each pixel in the image.</summary>
+    </member>
+    <member name="T:Xceed.Chart.GraphicsCore.LightModelBase">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="T:Xceed.Chart.GraphicsCore.LightSourceBase">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="T:Xceed.Chart.GraphicsCore.LinePropertiesBase">
+      <summary>Controls the line (or border) parameters of the object it is applied to. With the properties of this object you can modify the line style, color and width.</summary>
+    </member>
+    <member name="T:Xceed.Chart.GraphicsCore.OffsetDragOperation">
+      <summary>This class represents the offset interactivity operation. The offset feature of the control enables the end user to move the chart margins by pressing the
+mouse button and then dragging the mouse over the control. The chart will move accordingly and the margins of the current chart will also change accordingly.</summary>
+    </member>
+    <member name="T:Xceed.Chart.GraphicsCore.PNGDescription">
+      <summary>Describes a PNG image response returned to the client browser</summary>
+    </member>
+    <member name="T:Xceed.Chart.GraphicsCore.ShadowBase">
+      <summary>Base class for all shadow classes</summary>
+    </member>
+    <member name="T:Xceed.Chart.GraphicsCore.StandardFrameBase">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="T:Xceed.Chart.GraphicsCore.TextBase">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="T:Xceed.Chart.GraphicsCore.TIFFDescription">
+      <summary>Describes a TIFF image response returned to the client browser.</summary>
+    </member>
+    <member name="T:Xceed.Chart.GraphicsCore.TooltipInteractivityOperation">
+      <summary>When present in the InteractivityOperations collection instructs the control to display tooltips for the chart elements that have an assigned tooltip.</summary>
+    </member>
+    <member name="T:Xceed.Chart.GraphicsCore.TrackballDragOperation">
+      <summary>This class represents the trackball interactivity operation. The trackball feature of the control enables you to to interactively modify the Elevation and
+Rotation parameters of the View object of the active chart.</summary>
+    </member>
+    <member name="T:Xceed.Chart.GraphicsCore.ViewBase">
+      <summary>Controls scene view parameters like camera position, zoom, projection type, etc.</summary>
+    </member>
+    <member name="T:Xceed.Chart.GraphicsCore.ZoomDragOperation">
+      <summary>The zoom feature of the control enables the user to interactively modify the Zoom parameter of the View object attached to the active chart.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.AdvancedGradientFill.#ctor">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.AdvancedGradientFill.Clone">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.AdvancedGradientFill.CreateOneColorBasedGradient(System.Drawing.Color,System.Drawing.Color,System.Int32)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.AdvancedGradientFill.CreateTwoColorBasedGradient(System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Int32)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.AdvancedGradientFill.DrawAdvancedGradient(System.Drawing.Bitmap)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.AdvancedGradientFill.SetPredefindedAdvancedGradient(Xceed.Chart.GraphicsCore.AdvancedGradientScheme,System.Int32)">
+      <summary>Loads a predefined advanced gradient.</summary>
+      <param name="nScheme">The scheme (style) of the gradient.</param>
+      <param name="nVariant">The gradient subvariant within the style.</param>
+    </member>
+    <member name="P:Xceed.Chart.GraphicsCore.AdvancedGradientFill.BackgroundColor">
+      <summary>The background color of the gradient.</summary>
+    </member>
+    <member name="P:Xceed.Chart.GraphicsCore.AdvancedGradientFill.Points">
+      <summary>An array of AdvancedGradientPoint objects, which describe the advanced gradient.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.AdvancedGradientFill.m_arrPoints">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.AdvancedGradientFill.m_BackgroundColor">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.AdvancedGradientPoint.#ctor">
+      <summary>Creates a new advanced gradient point with default properties.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.AdvancedGradientPoint.#ctor(System.Drawing.Color,System.Single,System.Single,System.Single,System.Single,Xceed.Chart.GraphicsCore.AGPointShape)">
+      <summary>Creates a new advanced gradient point with the specified properties.</summary>
+      <param name="color">The color of the point.</param>
+      <param name="x">The horizontal position of the point in the gradient in percents, whereas 0 means left most and 100% right most.</param>
+      <param name="y">The vertical position of the point in the gradient in percents, whereas 0 means top most and 100% bottom most.</param>
+      <param name="angle">The rotation of the point shape relative to its center when the shape is rectangle or line.</param>
+      <param name="intensity">The intensisity of the point in the range [0, 100].</param>
+      <param name="shape">The shape of the point.</param>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.AdvancedGradientPoint.Clone">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="P:Xceed.Chart.GraphicsCore.AdvancedGradientPoint.Angle">
+      <summary>The angle of rotation of the point shape.</summary>
+    </member>
+    <member name="P:Xceed.Chart.GraphicsCore.AdvancedGradientPoint.Color">
+      <summary>The color of the advanced gradient point.</summary>
+    </member>
+    <member name="P:Xceed.Chart.GraphicsCore.AdvancedGradientPoint.Intensity">
+      <summary>The intensity of the color point.</summary>
+    </member>
+    <member name="P:Xceed.Chart.GraphicsCore.AdvancedGradientPoint.Shape">
+      <summary>The shape of the advanced gradient point.</summary>
+    </member>
+    <member name="P:Xceed.Chart.GraphicsCore.AdvancedGradientPoint.X">
+      <summary>The horizontal position of the gradient point.</summary>
+    </member>
+    <member name="P:Xceed.Chart.GraphicsCore.AdvancedGradientPoint.Y">
+      <summary>The vertical position of the gradient point.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.AdvancedGradientPoint.m_Color">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.AdvancedGradientPoint.m_fAngle">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.AdvancedGradientPoint.m_fIntensity">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.AdvancedGradientPoint.m_fX">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.AdvancedGradientPoint.m_fY">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.AdvancedGradientPoint.m_nShape">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.AdvancedGradientPointArray.#ctor">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.AdvancedGradientPointArray.Clone">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.BackgroundBase.#ctor">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.BackgroundBase.Clone">
+      <summary>Creates an identical copy of the background object</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.BevelAndEmbossFilter.#ctor(Xceed.Chart.GraphicsCore.BevelType,System.Single,System.Int32,System.Int32,Xceed.Chart.GraphicsCore.BlurType,System.Int32,System.Drawing.Color,System.Drawing.Color)">
+      <summary>Creates a new BevelAndEmbossFilter using the specified parameters.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.BevelAndEmbossFilter.#ctor">
+      <summary>Creates a new BevelAndEmbossFilter using the default parameters.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.BevelAndEmbossFilter.ApplyEmboss(Xceed.Chart.GraphicsCore.BitmapFunctions,Xceed.Chart.GraphicsCore.BitmapFunctions,System.Drawing.Rectangle,System.Drawing.Rectangle,System.Byte[])">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.BevelAndEmbossFilter.ApplyInnerBevel(Xceed.Chart.GraphicsCore.BitmapFunctions,Xceed.Chart.GraphicsCore.BitmapFunctions,System.Drawing.Rectangle,System.Drawing.Rectangle,System.Byte[])">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.BevelAndEmbossFilter.ApplyOuterBevel(Xceed.Chart.GraphicsCore.BitmapFunctions,Xceed.Chart.GraphicsCore.BitmapFunctions,System.Drawing.Rectangle,System.Drawing.Rectangle,System.Byte[])">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.BevelAndEmbossFilter.ApplyPillowEmboss(Xceed.Chart.GraphicsCore.BitmapFunctions,Xceed.Chart.GraphicsCore.BitmapFunctions,System.Drawing.Rectangle,System.Drawing.Rectangle,System.Byte[])">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.BevelAndEmbossFilter.CreateLightAndShadowGraphicSVG(System.String@,System.String,System.String,System.String,System.Drawing.Color,System.Drawing.Color)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.BevelAndEmbossFilter.GetBlurSize">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.BevelAndEmbossFilter.GetColorConversionValue(System.Drawing.Color)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.BevelAndEmbossFilter.GetOffsetSize">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.BevelAndEmbossFilter.UpdateMatrices">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="P:Xceed.Chart.GraphicsCore.BevelAndEmbossFilter.Angle">
+      <summary>The angle of offset.</summary>
+    </member>
+    <member name="P:Xceed.Chart.GraphicsCore.BevelAndEmbossFilter.BevelType">
+      <summary>The type of bevel effect to generate.</summary>
+    </member>
+    <member name="P:Xceed.Chart.GraphicsCore.BevelAndEmbossFilter.BlurType">
+      <summary>The type of the blur to use.</summary>
+    </member>
+    <member name="P:Xceed.Chart.GraphicsCore.BevelAndEmbossFilter.Depth">
+      <summary>The depth of the bevel effect, affects the distance between the highlight and shadow shapes offset across the direction specified in 'Angle'.</summary>
+    </member>
+    <member name="P:Xceed.Chart.GraphicsCore.BevelAndEmbossFilter.LightColor">
+      <summary>The light color of the contour.</summary>
+    </member>
+    <member name="P:Xceed.Chart.GraphicsCore.BevelAndEmbossFilter.OriginalOpacity">
+      <summary>Fades out the original image leaving only the bevel effect.</summary>
+    </member>
+    <member name="P:Xceed.Chart.GraphicsCore.BevelAndEmbossFilter.ShadowColor">
+      <summary>The shadow color of the contour.</summary>
+    </member>
+    <member name="P:Xceed.Chart.GraphicsCore.BevelAndEmbossFilter.Soften">
+      <summary>Blur amount of the bevel shapes.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.BevelAndEmbossFilter.m_fAngle">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.BevelAndEmbossFilter.m_HorzConv">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.BevelAndEmbossFilter.m_LightColor">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.BevelAndEmbossFilter.m_nBevelType">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.BevelAndEmbossFilter.m_nBlurType">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.BevelAndEmbossFilter.m_nDepth">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.BevelAndEmbossFilter.m_nOriginalOpacity">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.BevelAndEmbossFilter.m_nSoften">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.BevelAndEmbossFilter.m_ShadowColor">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.BevelAndEmbossFilter.m_VertConv">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.BitmapDescription.#ctor">
+      <summary>Creates a new BitmapDescription object with default properties.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.BitmapDescription.GetExtension">
+      <summary>Returns the file extension - ".bmp".</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.BitmapDescription.GetImageType">
+      <summary>The image type of this object ImageType.BMP</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.BitmapDescription.GetMimeType">
+      <summary>Returns the mime type - "image/bmp".</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.BlurFilter.#ctor">
+      <summary>Creates a new blur filter using default parameters.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.BlurFilter.#ctor(Xceed.Chart.GraphicsCore.BlurType,System.Drawing.SizeF,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">
+      <summary>Creates a new blur filter using the specified parameters.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.BlurFilter.#ctor(Xceed.Chart.GraphicsCore.BlurType,System.Drawing.Size,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">
+      <summary>Creates a new blur filter using the specified parameters.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.BlurFilter.GetSVGDefinition(System.String,System.Boolean)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.BlurFilter.SetParams(Xceed.Chart.GraphicsCore.BlurType,System.Drawing.Size,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">
+      <summary>Updates all parameters of the blur filter.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.BlurFilter.UpdateMatrices">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="P:Xceed.Chart.GraphicsCore.BlurFilter.AlphaChannelOnly">
+      <summary>Whether or not to blur the alpha channel or all color channels of the image (ARGB).</summary>
+    </member>
+    <member name="P:Xceed.Chart.GraphicsCore.BlurFilter.BlurBottom">
+      <summary>When set to true the top corners of the image will be blured.</summary>
+    </member>
+    <member name="P:Xceed.Chart.GraphicsCore.BlurFilter.BlurLeft">
+      <summary>When set to true the left corners of the image will be blured.</summary>
+    </member>
+    <member name="P:Xceed.Chart.GraphicsCore.BlurFilter.BlurRight">
+      <summary>When set to true the right corners of the image will be blured.</summary>
+    </member>
+    <member name="P:Xceed.Chart.GraphicsCore.BlurFilter.BlurTop">
+      <summary>When set to true the top corners of the image will be blured.</summary>
+    </member>
+    <member name="P:Xceed.Chart.GraphicsCore.BlurFilter.Size">
+      <summary>The size of the horizontal and vertical blur matrices.</summary>
+    </member>
+    <member name="P:Xceed.Chart.GraphicsCore.BlurFilter.Type">
+      <summary>The type of blur convolution to use.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.BlurFilter.m_bAlphaChannelOnly">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.BlurFilter.m_bBlurBottom">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.BlurFilter.m_bBlurLeft">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.BlurFilter.m_bBlurRight">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.BlurFilter.m_bBlurTop">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.BlurFilter.m_HorzConv">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.BlurFilter.m_nType">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.BlurFilter.m_Size">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.BlurFilter.m_VertConv">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.CursorChangeInteractivityOperation.#ctor">
+      <summary>Creates a new CursorChangeInteractivityOperation object.</summary>
+    </member>
+    <member name="P:Xceed.Chart.GraphicsCore.DragEventArgs.KeyState">
+      <summary>Gets the current state of the SHIFT, CTRL, and ALT keys, as well as the state of the mouse buttons.</summary>
+    </member>
+    <member name="P:Xceed.Chart.GraphicsCore.DragEventArgs.X">
+      <summary>Gets the x-coordinate of the mouse pointer, in control client coordinates.</summary>
+    </member>
+    <member name="P:Xceed.Chart.GraphicsCore.DragEventArgs.Y">
+      <summary>Gets the y-coordinate of the mouse pointer, in control client coordinates.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.DragEventArgs.m_nKeyState">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.DragEventArgs.m_nX">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.DragEventArgs.m_nY">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.DragOperation.CancelOperation">
+      <summary>Cancels this interactivity operation</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.DragOperation.FireBeginDrag(Xceed.Chart.GraphicsCore.EventDescription@)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.DragOperation.FireCancel">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.DragOperation.FireDoDrag(Xceed.Chart.GraphicsCore.EventDescription@)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.DragOperation.FireEndDrag(Xceed.Chart.GraphicsCore.EventDescription@)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.DragOperation.GetDevice">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.DragOperation.ProcessKeyDown(System.Windows.Forms.KeyEventArgs)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="P:Xceed.Chart.GraphicsCore.DragOperation.Cursor">
+      <summary>Controls the cursor displayed by the control when the operation is active.</summary>
+    </member>
+    <member name="P:Xceed.Chart.GraphicsCore.DragOperation.MouseDragButton">
+      <summary>The mouse button that starts this dragging operation</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.DragOperation.m_bProcessing">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.DragOperation.m_Cursor">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.DragOperation.m_nMouseDragButton">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.DragOperation.m_StartMouseEventArgs">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="E:Xceed.Chart.GraphicsCore.DragOperation.BeginDrag">
+      <summary>Fired before a drag operation is about to begin.</summary>
+    </member>
+    <member name="E:Xceed.Chart.GraphicsCore.DragOperation.Cancel">
+      <summary>Fired if the user pressed the Escape button.</summary>
+    </member>
+    <member name="E:Xceed.Chart.GraphicsCore.DragOperation.DoDrag">
+      <summary>Fired when a drag operation is being processes.</summary>
+    </member>
+    <member name="E:Xceed.Chart.GraphicsCore.DragOperation.EndDrag">
+      <summary>Fired after a drag operation has ended.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.FillEffectBase.#ctor">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.FillEffectBase.#ctor(System.Drawing.Color)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.FillEffectBase.Clone">
+      <summary>Creates an exact replica of this FillEffectBase instance</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.FillEffectBase.GetNativeBrush(System.Drawing.Size)">
+      <summary>Generates a native brush of the current fill effect with the specified dimensions. This can be an instance of SolidBrush, LinearGradientBrush,
+PathGradientBrush or TextureBrush.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.FillEffectBase.GetTextureBrush(System.Drawing.Size)">
+      <summary>Generates a texture brush of the current fill effect with the specified dimensions.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.FillEffectBase.InitFromFillEffect(Xceed.Chart.GraphicsCore.FillEffectBase)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.FillEffectBase.IsTransparent">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.FillEffectMapping.#ctor">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.FillEffectMapping.Clone">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="P:Xceed.Chart.GraphicsCore.FillEffectMapping.HorizontalScale">
+      <summary>An additional scale in the X dimension to be applied to the texture when mapped.</summary>
+    </member>
+    <member name="P:Xceed.Chart.GraphicsCore.FillEffectMapping.MapLayout">
+      <summary>Controls how the texture is positioned relative to the object.</summary>
+    </member>
+    <member name="P:Xceed.Chart.GraphicsCore.FillEffectMapping.MapMode">
+      <summary>Controls the mapping mode used by the drawing engine.</summary>
+    </member>
+    <member name="P:Xceed.Chart.GraphicsCore.FillEffectMapping.VerticalScale">
+      <summary>An additional scale in the Y dimension to be applied to the texture when mapped.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.Filter.#ctor">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.Filter.ApplyCoeffToMatix(System.Boolean,System.Boolean,System.Single[],Xceed.Chart.GraphicsCore.ConvMatrix)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.Filter.ApplyHorzConvolutionToAlphaChannel(Xceed.Chart.GraphicsCore.ConvMatrix,System.Byte[],System.Byte[],System.Drawing.Rectangle@)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.Filter.ApplyVertConvolutionToAlphaChannel(Xceed.Chart.GraphicsCore.ConvMatrix,System.Byte[],System.Byte[],System.Drawing.Rectangle@)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.Filter.Clone">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.Filter.ContructBlurMatrix(Xceed.Chart.GraphicsCore.BlurType,System.Int32,System.Boolean,System.Boolean,Xceed.Chart.GraphicsCore.ConvMatrix@)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.Filter.CreateCoeffsForBlur(Xceed.Chart.GraphicsCore.BlurType,System.Int32)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.Filter.UpdateMatrices">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.Frame.Clone">
+      <summary>Creates an identical copy of this class instance</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.GIFDescription.#ctor">
+      <summary>Creates a new GIFDescription object with default settings.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.GIFDescription.GetExtension">
+      <summary>Returns the file extension - ".gif".</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.GIFDescription.GetImageType">
+      <summary>The image type of this object - ImageType.GIF.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.GIFDescription.GetMimeType">
+      <summary>Returns the mime type - "image/gif".</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.GlowFilter.#ctor">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.GlowFilter.ApplyInnerGlow(Xceed.Chart.GraphicsCore.BitmapFunctions,Xceed.Chart.GraphicsCore.BitmapFunctions,System.Drawing.Rectangle,System.Drawing.Rectangle,System.Byte[])">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.GlowFilter.ApplyOuterGlow(Xceed.Chart.GraphicsCore.BitmapFunctions,Xceed.Chart.GraphicsCore.BitmapFunctions,System.Drawing.Rectangle,System.Drawing.Rectangle,System.Byte[])">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.GlowFilter.UpdateMatrices">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="P:Xceed.Chart.GraphicsCore.GlowFilter.BlurType">
+      <summary>The type of the blur to use.</summary>
+    </member>
+    <member name="P:Xceed.Chart.GraphicsCore.GlowFilter.Color">
+      <summary>The color of the glow effect.</summary>
+    </member>
+    <member name="P:Xceed.Chart.GraphicsCore.GlowFilter.Depth">
+      <summary>The depth of the glow effect in pixels.</summary>
+    </member>
+    <member name="P:Xceed.Chart.GraphicsCore.GlowFilter.GlowType">
+      <summary>The type of glow effect.</summary>
+    </member>
+    <member name="P:Xceed.Chart.GraphicsCore.GlowFilter.OriginalOpacity">
+      <summary>Fades out the original image leaving only the glow effect.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.GlowFilter.m_Color">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.GlowFilter.m_HorzConv">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.GlowFilter.m_nBlurType">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.GlowFilter.m_nDepth">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.GlowFilter.m_nGlowType">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.GlowFilter.m_nOriginalOpacity">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.GlowFilter.m_VertConv">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.ImageDescription.Clone">
+      <summary>Creates an exact replica of this ImageDescription object.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.ImageDescription.GetExtension">
+      <summary>Returns the file extension of the image</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.ImageDescription.GetImageType">
+      <summary>The image type of of the image</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.ImageDescription.GetMimeType">
+      <summary>Returns the mime type of the image.</summary>
+    </member>
+    <member name="P:Xceed.Chart.GraphicsCore.ImageDescription.BitsPerPixel">
+      <summary>The color resolution of the image.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.ImageDescription.c_sBitsPerPixel">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.ImageDescription.c_sImageType">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.ImageDescription.m_nBitsPerPixel">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.ImageFiltersCollection.#ctor">
+      <summary>Constructs a new instance of this class</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.ImageFiltersCollection.Clone">
+      <summary>Creates an identical copy of this instance</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.ImageFrameBase.#ctor">
+      <summary>Creates a new instance of this class</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.ImageFrameBase.InitFromFrameProperties(Xceed.Chart.GraphicsCore.ImageFrameBase)">
+      <summary>Initialzies this instance from the properties of another image frame base object.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.InteractivityOperation.Clone">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.InteractivityOperation.Dispose">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="P:Xceed.Chart.GraphicsCore.InteractivityOperation.Active">
+      <summary>Indicates whether the interactivity operation is active.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.InteractivityOperationsCollectionBase.#ctor">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.JPEGDescription.GetExtension">
+      <summary>Returns the file extension - ".jpg"</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.JPEGDescription.GetImageType">
+      <summary>The image type of this object ImageType.JPEG</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.JPEGDescription.GetMimeType">
+      <summary>Returns the mime type - "image/jpeg".</summary>
+    </member>
+    <member name="P:Xceed.Chart.GraphicsCore.JPEGDescription.Quality">
+      <summary>The quality parameter of the JPEG image.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.JPEGDescription.c_nDefaultQuality">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.JPEGDescription.c_sQuality">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.JPEGDescription.m_nQuality">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.LightingFilter.ApplyDirectionalLighting(Xceed.Chart.GraphicsCore.FilterContext,System.Byte[])">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.LightingFilter.ApplyPositionalLighting(Xceed.Chart.GraphicsCore.FilterContext,System.Byte[])">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.LightingFilter.CreateAlphaChannelForBumpMapping(Xceed.Chart.GraphicsCore.FilterContext,System.Byte[]@,System.Byte[]@)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.LightingFilter.RequiresBumpMap">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.LightingFilter.UpdateMatrices">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="P:Xceed.Chart.GraphicsCore.LightingFilter.BevelDepth">
+      <summary>The size of the image bevel in pixels.</summary>
+    </member>
+    <member name="P:Xceed.Chart.GraphicsCore.LightingFilter.BlurType">
+      <summary>The type of blur matrix to use in order to create the bump map.</summary>
+    </member>
+    <member name="P:Xceed.Chart.GraphicsCore.LightingFilter.DiffuseColor">
+      <summary>The diffuse color of the light source.</summary>
+    </member>
+    <member name="P:Xceed.Chart.GraphicsCore.LightingFilter.LightSourceType">
+      <summary>The type of the light source.</summary>
+    </member>
+    <member name="P:Xceed.Chart.GraphicsCore.LightingFilter.Position">
+      <summary>The Position of the light source.</summary>
+    </member>
+    <member name="P:Xceed.Chart.GraphicsCore.LightingFilter.Shininess">
+      <summary>The Shininess of the material used to cover the surface.</summary>
+    </member>
+    <member name="P:Xceed.Chart.GraphicsCore.LightingFilter.SpecularColor">
+      <summary>The specular color of the light source.</summary>
+    </member>
+    <member name="P:Xceed.Chart.GraphicsCore.LightingFilter.SurfaceScale">
+      <summary>The scale of the surface.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.LightingFilter.m_DiffuseColor">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.LightingFilter.m_fSnininess">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.LightingFilter.m_fSurfaceScale">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.LightingFilter.m_nBevelDepth">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.LightingFilter.m_nBlurType">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.LightingFilter.m_nLightSourceType">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.LightingFilter.m_Position">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.LightingFilter.m_SoftenHorzConv">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.LightingFilter.m_SoftenVertConv">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.LightingFilter.m_SpecularColor">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.LightModelBase.#ctor">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.LightModelBase.CreateLightSource">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.LightModelBase.SetPredefinedScheme(Xceed.Chart.GraphicsCore.LightScheme)">
+      <summary>Configures the object to use a predefined light scheme.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.LightSourceBase.#ctor">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.LightSourceBase.Clone">
+      <summary>Creates a copy of the object.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.LinePropertiesBase.#ctor">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.LinePropertiesBase.#ctor(System.Int32,System.Drawing.Color)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.LinePropertiesBase.#ctor(System.Int32,System.Drawing.Color,System.Int32,System.Int32)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.LinePropertiesBase.Clone">
+      <summary>Creates an exact replicate of this LinePropertiesBase object.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.LinePropertiesBase.Equals(Xceed.Chart.GraphicsCore.LinePropertiesBase)">
+      <summary>Compares two LinePropertiesBase objects</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.OffsetDragOperation.#ctor">
+      <summary>Creates a new OffsetDragOperation object.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.OffsetDragOperation.CancelOperation">
+      <summary>Cancels the offset drag operation.</summary>
+    </member>
+    <member name="P:Xceed.Chart.GraphicsCore.OffsetDragOperation.HorizontalStep">
+      <summary>The change in the x margin location parameter of the chart view when the user presses the left or right arrow buttons.</summary>
+    </member>
+    <member name="P:Xceed.Chart.GraphicsCore.OffsetDragOperation.VerticalStep">
+      <summary>The change in the y margin location parameter of the chart view when the user presses the up or down arrow buttons.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.OffsetDragOperation.m_fBottomMargin">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.OffsetDragOperation.m_fHorizontalStep">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.OffsetDragOperation.m_fLeftMargin">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.OffsetDragOperation.m_fRightMargin">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.OffsetDragOperation.m_fTopMargin">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.OffsetDragOperation.m_fVerticalStep">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.PNGDescription.#ctor">
+      <summary>Creates a new PNGDescription object with default settings.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.PNGDescription.GetExtension">
+      <summary>Returns the file extension - ".png"</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.PNGDescription.GetImageType">
+      <summary>The image type of this object ImageType.PNG</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.PNGDescription.GetMimeType">
+      <summary>Returns the mime type - "image/png".</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.ShadowBase.#ctor">
+      <summary>Creates a new instance of this class</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.ShadowBase.Clone">
+      <summary>Creates an identical copy of this shadow object</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.ShadowBase.InitFromShadow(Xceed.Chart.GraphicsCore.ShadowBase)">
+      <summary>Initialzies this instance from the properties of another shadow base object.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.StandardFrameBase.#ctor">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.StandardFrameBase.InitFromFrameProperties(Xceed.Chart.GraphicsCore.StandardFrameBase)">
+      <summary>Initializes a StandardFrame object from the properties of another StandardFrame object.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.TextBase.#ctor">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.TextBase.Clone">
+      <summary>Creates an identical copy of this this object.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.TIFFDescription.#ctor">
+      <summary>Creates TIFF image description with default properties</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.TIFFDescription.GetExtension">
+      <summary>Returns the file extension - ".tif".</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.TIFFDescription.GetImageType">
+      <summary>The image type of this object ImageType.TIFF</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.TIFFDescription.GetMimeType">
+      <summary>Returns the mime type - "image/tiff".</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.TooltipInteractivityOperation.#ctor">
+      <summary>Creates a new TooltipInteractivityOperation object with default settings.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.TooltipInteractivityOperation.ClearTooltip">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.TooltipInteractivityOperation.Dispose">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.TooltipInteractivityOperation.InitTooltip">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="P:Xceed.Chart.GraphicsCore.TooltipInteractivityOperation.AutoPopDelay">
+      <summary>Controls the period of time the tooltips remain visible if the mouse pointer is stationary within the chart.</summary>
+    </member>
+    <member name="P:Xceed.Chart.GraphicsCore.TooltipInteractivityOperation.InitialDelay">
+      <summary>Gets or sets the time that passes before the tooltip appears.</summary>
+    </member>
+    <member name="P:Xceed.Chart.GraphicsCore.TooltipInteractivityOperation.ReshowDelay">
+      <summary>Gets or sets the length of time that must transpire before subsequent tooltip windows appear as the mouse pointer moves from one chart element to another.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.TooltipInteractivityOperation.m_nAutoPopDelay">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.TooltipInteractivityOperation.m_nInitialDelay">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.TooltipInteractivityOperation.m_nReshowDelay">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.TrackballDragOperation.#ctor">
+      <summary>Creates a new TrackballDragOperation operation.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.TrackballDragOperation.CancelOperation">
+      <summary>Cancels the offset drag operation.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.TrackballDragOperation.ClampPointToSphere(System.Drawing.PointF@)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.TrackballDragOperation.GetPolarCoordinates(System.Drawing.PointF,System.Drawing.PointF)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.TrackballDragOperation.RotatePoint(System.Drawing.PointF,System.Single)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="P:Xceed.Chart.GraphicsCore.TrackballDragOperation.ElevationStep">
+      <summary>The change in the elevation parameter of the chart view when the user presses the up or down arrow buttons.</summary>
+    </member>
+    <member name="P:Xceed.Chart.GraphicsCore.TrackballDragOperation.RotationStep">
+      <summary>The change in the rotation parameter of the chart view when the user presses the left or right arrow buttons.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.TrackballDragOperation.m_fElevation">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.TrackballDragOperation.m_fElevationStep">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.TrackballDragOperation.m_fRotation">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.TrackballDragOperation.m_fRotationStep">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.TrackballDragOperation.m_fSquareSize">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.TrackballDragOperation.m_ptCenter">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.TrackballDragOperation.m_ptEnd">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.TrackballDragOperation.m_ptStart">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.ViewBase.#ctor">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.ViewBase.Clone">
+      <summary>Creates an identical copy of the view object</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.ViewBase.CreateStoredMatrices">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.ViewBase.SetPredefinedProjection(Xceed.Chart.GraphicsCore.PredefinedProjection)">
+      <summary>Sets a predefined projection to the camera.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.ViewBase.c_fDefaultPerspectiveAngle">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.ViewBase.c_fDefaultXDepth">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.ViewBase.c_fDefaultYDepth">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.ZoomDragOperation.#ctor">
+      <summary>Creates a new ZoomDragOperation operation.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.ZoomDragOperation.CancelOperation">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="P:Xceed.Chart.GraphicsCore.ZoomDragOperation.ZoomStep">
+      <summary>The change in the zoom parameter of the chart view when the user presses the up or down arrow buttons.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.ZoomDragOperation.m_fZoom">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.ZoomDragOperation.m_fZoomStep">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="T:Xceed.Chart.GraphicsCore.SVG.SVGRenderSettings">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.SVG.SVGRenderSettings.#ctor">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.GraphicsCore.SVG.SVGRenderSettings.Clone">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="P:Xceed.Chart.GraphicsCore.SVG.SVGRenderSettings.AddSVGHeader">
+      <summary>Whether or not to add SVG header to the generated document.</summary>
+    </member>
+    <member name="P:Xceed.Chart.GraphicsCore.SVG.SVGRenderSettings.Attributes">
+      <summary>The attributes assciated with the SVG tag.</summary>
+    </member>
+    <member name="P:Xceed.Chart.GraphicsCore.SVG.SVGRenderSettings.EmbeddedImageDescription">
+      <summary>Describes the format used to encode embedded images.</summary>
+    </member>
+    <member name="P:Xceed.Chart.GraphicsCore.SVG.SVGRenderSettings.EmbeddedScript">
+      <summary>The script to be injected in the SVG.</summary>
+    </member>
+    <member name="P:Xceed.Chart.GraphicsCore.SVG.SVGRenderSettings.EmbedImagesInSVG">
+      <summary>When set to true all images referenced by the SVG document will be embedded using base64 encoding.</summary>
+    </member>
+    <member name="P:Xceed.Chart.GraphicsCore.SVG.SVGRenderSettings.EnableInteractivity">
+      <summary>When set to true the component will generate an automatic ID for each scene element.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.SVG.SVGRenderSettings.c_sAddSVGHeader">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.SVG.SVGRenderSettings.c_sAttributes">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.SVG.SVGRenderSettings.c_sEmbeddedImageDescription">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.SVG.SVGRenderSettings.c_sEmbeddedScript">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.SVG.SVGRenderSettings.c_sEmbedImagesInSVG">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.SVG.SVGRenderSettings.c_sEnableInteractivity">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.SVG.SVGRenderSettings.m_Attributes">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.SVG.SVGRenderSettings.m_bAddSVGHeader">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.SVG.SVGRenderSettings.m_bEmbedImagesInSVG">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.SVG.SVGRenderSettings.m_bEnableInteractivity">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.SVG.SVGRenderSettings.m_EmbeddedImageDescription">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.GraphicsCore.SVG.SVGRenderSettings.m_EmbeddedScript">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+  </members>
+</doc>

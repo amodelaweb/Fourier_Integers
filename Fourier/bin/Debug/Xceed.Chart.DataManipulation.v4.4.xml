@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>Xceed.Chart.DataManipulation.v4.4</name>
+  </assembly>
+  <members>
+    <member name="T:Xceed.Chart.DataManipulation.ArgumentCollection">
+      <summary>Represents a collection of DataSeries objects which participate in a function expression as arguments (data sources). Each FunctionCalculator object has an
+associated argument collection.</summary>
+    </member>
+    <member name="T:Xceed.Chart.DataManipulation.FunctionCalculator">
+      <summary>Instances of this class can be used for calculation of various mathematical, statistical and financial functions.</summary>
+    </member>
+    <member name="T:Xceed.Chart.DataManipulation.FunctionException">
+      <summary>Thrown when an unexpected error occured in the function calculation</summary>
+    </member>
+    <member name="M:Xceed.Chart.DataManipulation.ArgumentCollection.Add(Xceed.Chart.Core.DataSeries)">
+      <summary>Adds a new argument to the collection. All the data series that participate in a function expression must be added to the collection before calculating the
+function.</summary>
+      <param name="ds">The data series object to be added to the collection.</param>
+    </member>
+    <member name="M:Xceed.Chart.DataManipulation.ArgumentCollection.Clear">
+      <summary>Removes all elements from the collection.</summary>
+    </member>
+    <member name="M:Xceed.Chart.DataManipulation.ArgumentCollection.RemoveAt(System.Int32)">
+      <summary>Removes the argument at the specified index from the collection.</summary>
+    </member>
+    <member name="P:Xceed.Chart.DataManipulation.ArgumentCollection.Count">
+      <summary>Gets the number of data series (arguments) in the collection.</summary>
+    </member>
+    <member name="M:Xceed.Chart.DataManipulation.FunctionCalculator.#ctor">
+      <summary>Creates a new instance of the FunctionCalculator class.</summary>
+    </member>
+    <member name="M:Xceed.Chart.DataManipulation.FunctionCalculator.Calculate">
+      <summary>Calculates a function which is defined by the current expression and arguments.</summary>
+      <exception caption="" cref="T:Xceed.Chart.DataManipulation.FunctionException">Raised if there are some invalid arguments or a syntax error in the expression.</exception>
+      <returns>The function returns an DataSeries object which contains the result of the calculation. If the expression is empty the function returns null.</returns>
+    </member>
+    <member name="M:Xceed.Chart.DataManipulation.FunctionCalculator.CalculateXValues">
+      <summary>Generates exemplary X-position values for the result elements. It is not compulsory to use the generated x values when presenting a function in the chart,
+still it is very useful for functions with groupping like AVERAGE, MIN, MAX and SUM.</summary>
+      <returns>The function returns an DataSeries object which contains the generated x-position values.</returns>
+    </member>
+    <member name="M:Xceed.Chart.DataManipulation.FunctionCalculator.Validate">
+      <summary>Checks if the current argument collection and the current expression are valid.</summary>
+      <exception caption="" cref="T:Xceed.Chart.DataManipulation.FunctionException">Raised if there are some invalid arguments or a syntax error in the expression.</exception>
+    </member>
+    <member name="P:Xceed.Chart.DataManipulation.FunctionCalculator.Arguments">
+      <summary>Gives access to an associated ArgumentCollection object - a collection of the data series which are used in the function calculation as arguments.</summary>
+    </member>
+    <member name="P:Xceed.Chart.DataManipulation.FunctionCalculator.Expression">
+      <summary>The Expression property defines the function expression or in other words the formula of the function. The expression can be constructed to represent various
+functions.</summary>
+    </member>
+  </members>
+</doc>

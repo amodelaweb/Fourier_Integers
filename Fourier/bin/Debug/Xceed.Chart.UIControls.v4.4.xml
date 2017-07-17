@@ -1,0 +1,1103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>Xceed.Chart.UIControls.v4.4</name>
+  </assembly>
+  <members>
+    <member name="T:Xceed.Chart.UIControls.BandState">
+      <summary>Enumerates the possible states of a Band object.</summary>
+    </member>
+    <member name="F:Xceed.Chart.UIControls.BandState.Collapsed">
+      <summary>The band is in collapsed mode. This means that only its caption is visible.</summary>
+    </member>
+    <member name="F:Xceed.Chart.UIControls.BandState.Expanded">
+      <summary>The band is in expanded mode.</summary>
+    </member>
+    <member name="T:Xceed.Chart.UIControls.Border">
+      <summary>Defines the possible styles of a border.</summary>
+    </member>
+    <member name="F:Xceed.Chart.UIControls.Border.None">
+      <summary>No border.</summary>
+    </member>
+    <member name="F:Xceed.Chart.UIControls.Border.Flat">
+      <summary>Flat or single line border.</summary>
+    </member>
+    <member name="F:Xceed.Chart.UIControls.Border.Raised">
+      <summary>The border has raised appearance.</summary>
+    </member>
+    <member name="F:Xceed.Chart.UIControls.Border.Sunken">
+      <summary>The border has sunken appearance.</summary>
+    </member>
+    <member name="F:Xceed.Chart.UIControls.Border.Etched">
+      <summary>The border has etched appearance.</summary>
+    </member>
+    <member name="F:Xceed.Chart.UIControls.Border.ModalFrame">
+      <summary>The border has modal frame appearance.</summary>
+    </member>
+    <member name="T:Xceed.Chart.UIControls.CommandType">
+      <summary>Defines the possible types of commands</summary>
+    </member>
+    <member name="F:Xceed.Chart.UIControls.CommandType.Method">
+      <summary>Method commands are excetuded with no additional data. Can be executed with a single toolbar button click</summary>
+    </member>
+    <member name="F:Xceed.Chart.UIControls.CommandType.Check">
+      <summary>Applies to commands, which have a checked/unchecked state.</summary>
+    </member>
+    <member name="F:Xceed.Chart.UIControls.CommandType.Radio">
+      <summary>Applies to mutually exclusive commands.</summary>
+    </member>
+    <member name="F:Xceed.Chart.UIControls.CommandType.Choice">
+      <summary>Applies on commands which need addtional data in order to be executed.</summary>
+    </member>
+    <member name="T:Xceed.Chart.UIControls.ControlAppearance">
+      <summary>Determines the appearance of a control</summary>
+    </member>
+    <member name="F:Xceed.Chart.UIControls.ControlAppearance.Default">
+      <summary>Appearance is synchronized with the OS settings</summary>
+    </member>
+    <member name="F:Xceed.Chart.UIControls.ControlAppearance.Flat">
+      <summary>Custom Flat style appearance</summary>
+    </member>
+    <member name="T:Xceed.Chart.UIControls.DataGridDateTimeFormat">
+      <summary>Defines the format of the date time column style.</summary>
+    </member>
+    <member name="F:Xceed.Chart.UIControls.DataGridDateTimeFormat.CustomDateTime">
+      <summary>Date time format is defined by the user</summary>
+    </member>
+    <member name="F:Xceed.Chart.UIControls.DataGridDateTimeFormat.Date">
+      <summary>Short date (based on default locale date time format)</summary>
+    </member>
+    <member name="F:Xceed.Chart.UIControls.DataGridDateTimeFormat.LongDate">
+      <summary>Long date (based on default locale date time format)</summary>
+    </member>
+    <member name="F:Xceed.Chart.UIControls.DataGridDateTimeFormat.Time">
+      <summary>Time is formatted based on default locale date time format</summary>
+    </member>
+    <member name="F:Xceed.Chart.UIControls.DataGridDateTimeFormat.DateTime">
+      <summary>The date time is formatted with the default locale date time format</summary>
+    </member>
+    <member name="T:Xceed.Chart.UIControls.TabAlign">
+      <summary>Specifies the layout strategy of a TabControl object.</summary>
+    </member>
+    <member name="F:Xceed.Chart.UIControls.TabAlign.Top">
+      <summary>The tabstrip is top aligned.</summary>
+    </member>
+    <member name="F:Xceed.Chart.UIControls.TabAlign.Bottom">
+      <summary>The tabstrip is bottom aligned.</summary>
+    </member>
+    <member name="F:Xceed.Chart.UIControls.TabAlign.Left">
+      <summary>The tabstrip is left aligned.</summary>
+    </member>
+    <member name="F:Xceed.Chart.UIControls.TabAlign.Right">
+      <summary>The tabstrip is right aligned.</summary>
+    </member>
+    <member name="T:Xceed.Chart.UIControls.ToolBarButtonStyle">
+      <summary>Available styles for a ToolBarButton object.</summary>
+    </member>
+    <member name="F:Xceed.Chart.UIControls.ToolBarButtonStyle.DropDown">
+      <summary>The button will display a drop-down menu.</summary>
+    </member>
+    <member name="F:Xceed.Chart.UIControls.ToolBarButtonStyle.Push">
+      <summary>A simple push-like button. This is the default style.</summary>
+    </member>
+    <member name="F:Xceed.Chart.UIControls.ToolBarButtonStyle.Toggle">
+      <summary>The button will serve as a checkbox and will have two states - checked and uncheked.</summary>
+    </member>
+    <member name="F:Xceed.Chart.UIControls.ToolBarButtonStyle.Separator">
+      <summary>A separator (spacing) between two buttons.</summary>
+    </member>
+    <member name="F:Xceed.Chart.UIControls.ToolBarButtonStyle.Control">
+      <summary>The button will serve as a placeholder for a Control.</summary>
+    </member>
+    <member name="T:Xceed.Chart.UIControls.Band">
+      <summary>Represents a band in a PanelBar object. The band is actually a panel, which can be collapsed or expanded. When the band is collapsed only its caption is
+visible.</summary>
+    </member>
+    <member name="T:Xceed.Chart.UIControls.BandCollection">
+      <summary>Represents a collection of Band objects.</summary>
+    </member>
+    <member name="T:Xceed.Chart.UIControls.ComboBox">
+      <summary>This class represents standard Windows.Forms.ComboBox control with custom painting and support for  object.</summary>
+    </member>
+    <member name="T:Xceed.Chart.UIControls.Command">
+      <summary>Represents a command in an application. Commands can be executed through menus, toolbar buttons and programmatically.</summary>
+    </member>
+    <member name="T:Xceed.Chart.UIControls.CommandBar">
+      <summary>This class represents the top-level manager for ToolBar objects.</summary>
+    </member>
+    <member name="T:Xceed.Chart.UIControls.DataGridComboBoxColumnStyle">
+      <summary>Combo box column style</summary>
+    </member>
+    <member name="T:Xceed.Chart.UIControls.DataGridControlColumnStyleBase">
+      <summary>Base class for all columns styles which require editing control</summary>
+    </member>
+    <member name="T:Xceed.Chart.UIControls.DataGridDateTimeColumnStyle">
+      <summary>Column style, which can be used for the visual editing of date time values represented by Ole Automation dates (double values)</summary>
+    </member>
+    <member name="T:Xceed.Chart.UIControls.DataGridTextControlColumnStyleBase">
+      <summary>Base control for column styles, which need a control for visual editing of values which can be represented as simple text</summary>
+    </member>
+    <member name="T:Xceed.Chart.UIControls.MeasurementNumericUpDown">
+      <summary>This class overrides the default implementation of the NumericUpDown class in order to add the current measurement units to the formatted text.</summary>
+    </member>
+    <member name="T:Xceed.Chart.UIControls.NumericUpDown">
+      <summary>Represents a class that provides custom painting of the standard NumericUpDown control.</summary>
+    </member>
+    <member name="T:Xceed.Chart.UIControls.OwnerDrawMenuItem">
+      <summary>Represents a class that inherits from the System.Windows.Forms.MenuItem class and provides custom drawing, which is dependent on the current OS appearance
+settings.</summary>
+    </member>
+    <member name="T:Xceed.Chart.UIControls.PanelBar">
+      <summary>Represents a panel bar, which contains one or more Band objects.</summary>
+    </member>
+    <member name="T:Xceed.Chart.UIControls.Shortcut">
+      <summary>Represents a keyboard shortcut combination, which can be assigned to a Command object.</summary>
+    </member>
+    <member name="T:Xceed.Chart.UIControls.StatusBar">
+      <summary>Represents a standard Windows.Forms.StatusBar with custom look and predefined panels.</summary>
+    </member>
+    <member name="T:Xceed.Chart.UIControls.TabControl">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="T:Xceed.Chart.UIControls.TabPage">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="T:Xceed.Chart.UIControls.TextPreview">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="T:Xceed.Chart.UIControls.ToolBar">
+      <summary>Represents a toolbar-like control with flat appearance and support for custom drop-down controls. It provides all the functionality of the standard
+Windows.Forms.ToolBar as well as moving and changing location. This toolbar also provides some extended features as dropping custom
+ objects instead of the standard ContextMenus.</summary>
+    </member>
+    <member name="T:Xceed.Chart.UIControls.ToolBarButton">
+      <summary>Represents a button on a  object. May have one of the five predefined styles. See
+<see cref="T:Xceed.Chart.UIControls.ToolBarButtonStyle" /> for more information.</summary>
+    </member>
+    <member name="T:Xceed.Chart.UIControls.ToolBarButtonCollection">
+      <summary>Represents a collection of  objects.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.Band.#ctor">
+      <summary>Creates a new instance of this class</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.Band.AnimateExpand">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.Band.OnControlAdded(System.Windows.Forms.ControlEventArgs)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.Band.OnLoad(System.EventArgs)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="P:Xceed.Chart.UIControls.Band.Caption">
+      <summary>Gets or sets the caption of the band.</summary>
+    </member>
+    <member name="P:Xceed.Chart.UIControls.Band.CaptionHeight">
+      <summary>Gets or sets the height of the band caption.</summary>
+    </member>
+    <member name="P:Xceed.Chart.UIControls.Band.CaptionImageIndex">
+      <summary>Image index of the icon, which must be displayed next to panel bar caption</summary>
+    </member>
+    <member name="P:Xceed.Chart.UIControls.Band.Description">
+      <summary>Gets or sets the description for a Band object. The description will appear as a tooltip as the user moves the mouse over the caption of the band.</summary>
+    </member>
+    <member name="P:Xceed.Chart.UIControls.Band.State">
+      <summary>Gets or sets the state of a Band object.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.BandCollection.Add(Xceed.Chart.UIControls.Band)">
+      <summary>Adds a new Band object to the collection.</summary>
+      <returns>The index at which the band was added.</returns>
+      <param name="band">The band to add.</param>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.BandCollection.AddRange(Xceed.Chart.UIControls.Band[])">
+      <summary>Adds range of Band objects.</summary>
+      <param name="bands">The array of bands to add.</param>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.BandCollection.Contains(Xceed.Chart.UIControls.Band)">
+      <summary>Determines whether the collection contains a Band object.</summary>
+      <returns>true if the band is contained, otherwise false.</returns>
+      <param name="band">The band to check for</param>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.BandCollection.Remove(Xceed.Chart.UIControls.Band)">
+      <summary>Removes the specified Band object from the collection.</summary>
+      <param name="band">The band to remove.</param>
+    </member>
+    <member name="P:Xceed.Chart.UIControls.BandCollection.Item(System.Int32)">
+      <summary>The indexer of the collection.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.ComboBox.#ctor">
+      <summary>Creates a new ComboBox object.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.ComboBox.OnDrawItem(System.Windows.Forms.DrawItemEventArgs)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.ComboBox.OnEnter(System.EventArgs)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.ComboBox.OnGotFocus(System.EventArgs)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.ComboBox.OnKeyDown(System.Windows.Forms.KeyEventArgs)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.ComboBox.OnLostFocus(System.EventArgs)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.ComboBox.OnMeasureItem(System.Windows.Forms.MeasureItemEventArgs)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.ComboBox.OnMouseDown(System.Windows.Forms.MouseEventArgs)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.ComboBox.OnMouseEnter(System.EventArgs)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.ComboBox.OnMouseLeave(System.EventArgs)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.ComboBox.OnMouseMove(System.Windows.Forms.MouseEventArgs)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.ComboBox.OnMouseUp(System.Windows.Forms.MouseEventArgs)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.ComboBox.OnSelectionChangeCommitted(System.EventArgs)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.ComboBox.OnSystemColorsChanged(System.EventArgs)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.ComboBox.WndProc(System.Windows.Forms.Message@)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="P:Xceed.Chart.UIControls.ComboBox.Appearance">
+      <summary>Gets or sets the ControlAppearance value for the combobox.</summary>
+    </member>
+    <member name="P:Xceed.Chart.UIControls.ComboBox.Command">
+      <summary>Gets or sets the  object for the combobox;</summary>
+    </member>
+    <member name="P:Xceed.Chart.UIControls.ComboBox.MouseSelect">
+      <summary>Gets or sets a value whether the control will be automatically selected/deselected on mouse hover/leave</summary>
+    </member>
+    <member name="P:Xceed.Chart.UIControls.ComboBox.Selectable">
+      <summary>Gets or sets a value whether the combo box can receive focus.</summary>
+    </member>
+    <member name="E:Xceed.Chart.UIControls.ComboBox.SelectedTextChanged">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.Command.#ctor(Xceed.Chart.UIControls.CommandType)">
+      <summary>Initializes a new command with the specified type.</summary>
+      <param name="type">The type of the new command</param>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.Command.#ctor">
+      <summary>Default constructor.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.Command.#ctor(Xceed.Chart.UIControls.Command)">
+      <summary>Copy contrstructor</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.Command.CanExecute">
+      <summary>Determines if a command can be executed.</summary>
+      <returns>True if the command can be executed, otherwise false.</returns>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.Command.Execute(System.Object)">
+      <summary>Executes a command with a specified additional data</summary>
+      <returns>True if executed successfully, otherwise false.</returns>
+      <param name="param">Additional data needed for execution. Can be null.</param>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.Command.GetCommandControl">
+      <summary>Gets the control associated with a command.</summary>
+      <returns>An instance of a System.Windows.Forms.Control derivate or null if no control is associated with this command.</returns>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.Command.InitDefault">
+      <summary>Initializes the default values of all the fields.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.Command.IsChecked">
+      <summary>Determines the check state of a command.</summary>
+      <returns>True if checked, otherwise false.</returns>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.Command.OnCommandExecuted">
+      <summary>Fires the CommandExecuted event.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.Command.OnUpdateCommand">
+      <summary>Fires the UpdateCommand event.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.Command.ToString">
+      <summary>Provides a humer readable desciption of the command</summary>
+      <returns>The default implementation simply returns the command description.</returns>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.Command.UpdateControl(System.Windows.Forms.Control)">
+      <summary>Updates the specified control with the current command state.</summary>
+      <param name="ctrl">control to update</param>
+    </member>
+    <member name="P:Xceed.Chart.UIControls.Command.CommandType">
+      <summary>Gets the type of this command</summary>
+    </member>
+    <member name="P:Xceed.Chart.UIControls.Command.Description">
+      <summary>Gets or sets the command description.</summary>
+    </member>
+    <member name="P:Xceed.Chart.UIControls.Command.ID">
+      <summary>Gets or sets the command id</summary>
+    </member>
+    <member name="P:Xceed.Chart.UIControls.Command.ImageIndex">
+      <summary>Gets or sets the image index associated with the command.</summary>
+    </member>
+    <member name="P:Xceed.Chart.UIControls.Command.ImageList">
+      <summary>Gets or sets a reference to the image list associated with the command.</summary>
+    </member>
+    <member name="P:Xceed.Chart.UIControls.Command.Shortcut">
+      <summary>Gets or sets the Shortcut object associated with a command.</summary>
+    </member>
+    <member name="P:Xceed.Chart.UIControls.Command.Tag">
+      <summary>Gets or sets additional data associated with the command.</summary>
+    </member>
+    <member name="P:Xceed.Chart.UIControls.Command.Tooltip">
+      <summary>Gets the tooltip text for a command.</summary>
+    </member>
+    <member name="F:Xceed.Chart.UIControls.Command.m_bSuspendExecute">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.UIControls.Command.m_CommandID">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.UIControls.Command.m_CommandType">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.UIControls.Command.m_Description">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.UIControls.Command.m_iImageIndex">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.UIControls.Command.m_ImageList">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.UIControls.Command.m_Shortcut">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.UIControls.Command.m_Tag">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.UIControls.Command.m_ToolTipText">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="E:Xceed.Chart.UIControls.Command.CommandExecuted">
+      <summary>Fired when the command was executed.</summary>
+    </member>
+    <member name="E:Xceed.Chart.UIControls.Command.UpdateCommand">
+      <summary>Fired when a command needs to be updated.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.CommandBar.#ctor">
+      <summary>Creates a new instance of this class</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.CommandBar.AddToolBar(Xceed.Chart.UIControls.ToolBar,System.Int32)">
+      <summary>Adds a new toolbar at the specified row index</summary>
+      <param name="toolbar">The toolbar to add.</param>
+      <param name="rowIndex">Index of row to add to. If this index is less than zero or bigger than the current row count a new row is created.</param>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.CommandBar.ClearToolBars">
+      <summary>Clears all toolbars contained in this command bar</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.CommandBar.GetToolBar(System.String)">
+      <summary>Retrieves the toolbar with the specified name.</summary>
+      <returns>a reference to the toolbar with the specified name or null if such toolbar does not exist</returns>
+      <param name="name">the name of the toolbar to look for</param>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.CommandBar.InitContextMenu">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.CommandBar.OnControlAdded(System.Windows.Forms.ControlEventArgs)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.CommandBar.OnControlRemoved(System.Windows.Forms.ControlEventArgs)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.CommandBar.OnResize(System.EventArgs)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.CommandBar.RemoveToolBar(System.String)">
+      <summary>Removes the toolbar with the specified name from the command bar.</summary>
+      <param name="name">the name of the toolbar to remove.</param>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.CommandBar.ResolveState(Xceed.Chart.UIControls.CommandBarState)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.CommandBar.ShowEditor">
+      <summary>Shows the commands editor</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.CommandBar.LoadState(System.String)">
+      <summary>Loads the state of the command bar from the specified file.</summary>
+      <param name="filePath">the filePath of the file to load from.</param>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.CommandBar.LoadState(System.IO.Stream)">
+      <summary>Loads the state of the command bar from the specified stream.</summary>
+      <param name="stream">the stream to load from.</param>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.CommandBar.SaveState(System.String)">
+      <summary>Saves the state of the command bar in the specified file.</summary>
+      <param name="filePath">the filePath in which to save the state.</param>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.CommandBar.SaveState(System.IO.Stream)">
+      <summary>Saves the state of the command bar in the specified stream.</summary>
+      <param name="stream">the stream in which to save the state.</param>
+    </member>
+    <member name="P:Xceed.Chart.UIControls.CommandBar.AllowCustomize">
+      <summary>Specifies whether the user can customize the command bar at run-time</summary>
+    </member>
+    <member name="P:Xceed.Chart.UIControls.CommandBar.Dock">
+      <summary>Gets or sets the DockStyle for the control. Currently supported dock styles are DockStyle.Top and DockStyle.Bottom.</summary>
+    </member>
+    <member name="F:Xceed.Chart.UIControls.CommandBar.m_arrToolBars">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.UIControls.CommandBar.m_bAllowCustomize">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.CommandManager.#ctor">
+      <summary>Initializes new CommandManager object.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.CommandManager.GetCommand(System.Int32)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.CommandManager.GetCommandBar">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.CommandManager.GetToolBarButtons">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.CommandManager.InitCommands">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.CommandManager.OnCommandExecuted(Xceed.Chart.UIControls.Command)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.CommandManager.ProcessCmdKey(System.Windows.Forms.Keys)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.CommandManager.SetCommandBar(Xceed.Chart.UIControls.CommandBar)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.CommandManager.UpdateButtons">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.UIControls.CommandManager.m_arrCommands">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.UIControls.CommandManager.m_CommandBar">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="E:Xceed.Chart.UIControls.CommandManager.BeginProcessCmdKey">
+      <summary>The event is fired when a command key processing is required.</summary>
+    </member>
+    <member name="E:Xceed.Chart.UIControls.CommandManager.BeginUpdateAfterExecute">
+      <summary>The event is fired straight after a command is executed and other commands need update.</summary>
+    </member>
+    <member name="E:Xceed.Chart.UIControls.CommandManager.EndProcessCmdKey">
+      <summary>The event is fired if a command key is processed.</summary>
+    </member>
+    <member name="E:Xceed.Chart.UIControls.CommandManager.EndUpdateAfterExecute">
+      <summary>The event is fired after commands updating is complete.</summary>
+    </member>
+    <member name="E:Xceed.Chart.UIControls.CommandManager.OnCommand">
+      <summary>The event is fired whenever a command is executed.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.DataGridComboBoxColumnStyle.#ctor(System.Collections.ArrayList,System.Boolean)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.DataGridComboBoxColumnStyle.GetControlObject">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.DataGridComboBoxColumnStyle.GetMinimumHeight">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.DataGridComboBoxColumnStyle.SetControlObject(System.Object)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.DataGridControlColumnStyleBase.#ctor">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.DataGridControlColumnStyleBase.Abort(System.Int32)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.DataGridControlColumnStyleBase.Commit(System.Windows.Forms.CurrencyManager,System.Int32)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.DataGridControlColumnStyleBase.ConcedeFocus">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.DataGridControlColumnStyleBase.EndEditSession">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.DataGridControlColumnStyleBase.GetControlObject">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.DataGridControlColumnStyleBase.GetMinimumHeight">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.DataGridControlColumnStyleBase.GetPreferredHeight(System.Drawing.Graphics,System.Object)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.DataGridControlColumnStyleBase.GetPreferredSize(System.Drawing.Graphics,System.Object)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.DataGridControlColumnStyleBase.OnEditedObjectChanged(System.EventArgs)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.DataGridControlColumnStyleBase.PaintObject(System.Object,System.Drawing.Rectangle,System.Drawing.Graphics)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.DataGridControlColumnStyleBase.SetControlObject(System.Object)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.DataGridControlColumnStyleBase.SetDataGridInColumn(System.Windows.Forms.DataGrid)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.DataGridControlColumnStyleBase.Edit(System.Windows.Forms.CurrencyManager,System.Int32,System.Drawing.Rectangle,System.Boolean,System.String,System.Boolean)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.DataGridControlColumnStyleBase.Paint(System.Drawing.Graphics,System.Drawing.Rectangle,System.Windows.Forms.CurrencyManager,System.Int32)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.DataGridControlColumnStyleBase.Paint(System.Drawing.Graphics,System.Drawing.Rectangle,System.Windows.Forms.CurrencyManager,System.Int32,System.Boolean)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.UIControls.DataGridControlColumnStyleBase.m_bInternalObjectChange">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.UIControls.DataGridControlColumnStyleBase.m_bIsEditing">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.UIControls.DataGridControlColumnStyleBase.m_bObjectChanged">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.UIControls.DataGridControlColumnStyleBase.m_Control">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.UIControls.DataGridControlColumnStyleBase.m_nEditingRow">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.UIControls.DataGridControlColumnStyleBase.m_nXMargin">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.UIControls.DataGridControlColumnStyleBase.m_nYMargin">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.UIControls.DataGridControlColumnStyleBase.m_OldObject">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.DataGridDateTimeColumnStyle.#ctor(Xceed.Chart.UIControls.DataGridDateTimeFormat,System.String,System.Globalization.CultureInfo)">
+      <summary>Constructs a new DataGridDateTimeColumnStyle object</summary>
+      <param name="format">Predefined DateTime format, which must be used</param>
+      <param name="customFormat">Custom format - used when format is set to CustomDateTime</param>
+      <param name="ci">Culture info to use when formatting the date time values</param>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.DataGridDateTimeColumnStyle.GetColumnValueAtRow(System.Windows.Forms.CurrencyManager,System.Int32)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.DataGridDateTimeColumnStyle.GetControlObject">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.DataGridDateTimeColumnStyle.GetMinimumHeight">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.DataGridDateTimeColumnStyle.SetColumnValueAtRow(System.Windows.Forms.CurrencyManager,System.Int32,System.Object)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.DataGridDateTimeColumnStyle.SetControlObject(System.Object)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.DataGridTextControlColumnStyleBase.#ctor">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.DataGridTextControlColumnStyleBase.Abort(System.Int32)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.DataGridTextControlColumnStyleBase.Commit(System.Windows.Forms.CurrencyManager,System.Int32)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.DataGridTextControlColumnStyleBase.ConcedeFocus">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.DataGridTextControlColumnStyleBase.EndEditSession">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.DataGridTextControlColumnStyleBase.GetControlObject">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.DataGridTextControlColumnStyleBase.GetMinimumHeight">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.DataGridTextControlColumnStyleBase.GetPreferredHeight(System.Drawing.Graphics,System.Object)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.DataGridTextControlColumnStyleBase.GetPreferredSize(System.Drawing.Graphics,System.Object)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.DataGridTextControlColumnStyleBase.OnEditedObjectChanged(System.EventArgs)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.DataGridTextControlColumnStyleBase.SetControlObject(System.Object)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.DataGridTextControlColumnStyleBase.SetDataGridInColumn(System.Windows.Forms.DataGrid)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.DataGridTextControlColumnStyleBase.Edit(System.Windows.Forms.CurrencyManager,System.Int32,System.Drawing.Rectangle,System.Boolean,System.String,System.Boolean)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.UIControls.DataGridTextControlColumnStyleBase.m_bInternalObjectChange">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.UIControls.DataGridTextControlColumnStyleBase.m_bIsEditing">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.UIControls.DataGridTextControlColumnStyleBase.m_bObjectChanged">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.UIControls.DataGridTextControlColumnStyleBase.m_Control">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.UIControls.DataGridTextControlColumnStyleBase.m_nEditingRow">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.UIControls.DataGridTextControlColumnStyleBase.m_nXMargin">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.UIControls.DataGridTextControlColumnStyleBase.m_nYMargin">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.UIControls.DataGridTextControlColumnStyleBase.m_OldObject">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.MeasurementNumericUpDown.#ctor">
+      <summary>Creates a default MeasurementNumericUpDown object.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.MeasurementNumericUpDown.OnKeyUp(System.Windows.Forms.KeyEventArgs)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.MeasurementNumericUpDown.OnValueChanged(System.EventArgs)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.MeasurementNumericUpDown.UpdateEditText">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="P:Xceed.Chart.UIControls.MeasurementNumericUpDown.BorderStyle">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="P:Xceed.Chart.UIControls.MeasurementNumericUpDown.MeasurementUnit">
+      <summary>Gets or sets the MeasureUnit value for the control.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.NumericUpDown.#ctor">
+      <summary>Initalizes a default NumeriUpDown object</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.NumericUpDown.OnHandleCreated(System.EventArgs)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.NumericUpDown.WndProc(System.Windows.Forms.Message@)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="P:Xceed.Chart.UIControls.NumericUpDown.BorderStyle">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.OwnerDrawMenuItem.#ctor">
+      <summary>Creates a new instance of this class</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.OwnerDrawMenuItem.#ctor(System.String)">
+      <summary>Creates a new instance of this class with the specified text</summary>
+      <param name="text">menu item text</param>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.OwnerDrawMenuItem.DrawCheckMark(System.Drawing.Graphics,System.Drawing.Rectangle,System.Drawing.Color,System.Boolean)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.OwnerDrawMenuItem.DrawImage(System.Drawing.Graphics,System.Drawing.Rectangle,System.Int32,System.Int32,System.Boolean)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.OwnerDrawMenuItem.DrawImageSelection(System.Drawing.Graphics,System.Drawing.Rectangle,System.Boolean)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.OwnerDrawMenuItem.DrawItemNormal(System.Drawing.Graphics,System.Drawing.Rectangle,System.Drawing.Rectangle,System.Drawing.Rectangle,System.Windows.Forms.DrawItemState)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.OwnerDrawMenuItem.DrawItemSelected(System.Drawing.Graphics,System.Drawing.Rectangle,System.Drawing.Rectangle,System.Drawing.Rectangle,System.Windows.Forms.DrawItemState)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.OwnerDrawMenuItem.DrawSeparator(System.Drawing.Graphics,System.Drawing.Rectangle)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.OwnerDrawMenuItem.DrawShortcut(System.Drawing.Graphics,System.Drawing.Rectangle,System.Drawing.Color)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.OwnerDrawMenuItem.DrawText(System.Drawing.Graphics,System.Drawing.Rectangle,System.Drawing.Color,System.Int32,System.Int32)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.OwnerDrawMenuItem.IsTopMenuItem">
+      <summary>Determines whether this is a top menu item</summary>
+      <returns>true if it is a top menu item, otherwise false</returns>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.OwnerDrawMenuItem.OnClick(System.EventArgs)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.OwnerDrawMenuItem.OnDrawItem(System.Windows.Forms.DrawItemEventArgs)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.OwnerDrawMenuItem.OnMeasureItem(System.Windows.Forms.MeasureItemEventArgs)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.OwnerDrawMenuItem.OnPopup(System.EventArgs)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.OwnerDrawMenuItem.OnSelect(System.EventArgs)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.OwnerDrawMenuItem.Dispose(System.Boolean)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="P:Xceed.Chart.UIControls.OwnerDrawMenuItem.Command">
+      <summary>Gets or sets the command associated with the menu item</summary>
+    </member>
+    <member name="P:Xceed.Chart.UIControls.OwnerDrawMenuItem.Description">
+      <summary>Gets or sets the description text, which must appear on the specified status bar (if any).</summary>
+    </member>
+    <member name="P:Xceed.Chart.UIControls.OwnerDrawMenuItem.Image">
+      <summary>Gets or sets the Image to display next to the menu item</summary>
+    </member>
+    <member name="P:Xceed.Chart.UIControls.OwnerDrawMenuItem.Param">
+      <summary>Gets or sets additional data associated with the menu item.</summary>
+    </member>
+    <member name="P:Xceed.Chart.UIControls.OwnerDrawMenuItem.ShouldDrawImage">
+      <summary>Gets or sets a value whether to draw an image(if any)</summary>
+    </member>
+    <member name="P:Xceed.Chart.UIControls.OwnerDrawMenuItem.StatusBar">
+      <summary>Gets or sets a  object on which the menu item should display its description</summary>
+    </member>
+    <member name="F:Xceed.Chart.UIControls.OwnerDrawMenuItem.m_bDrawImage">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.UIControls.OwnerDrawMenuItem.m_bXPAppearance">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.UIControls.OwnerDrawMenuItem.m_Param">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.PanelBar.#ctor">
+      <summary>Initializes new PanelBar object.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.PanelBar.GetExpandedBand">
+      <summary>Returns a reference to the currently expanded band</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.PanelBar.OnControlAdded(System.Windows.Forms.ControlEventArgs)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.PanelBar.OnLoad(System.EventArgs)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.PanelBar.OnPaint(System.Windows.Forms.PaintEventArgs)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.PanelBar.OnResize(System.EventArgs)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.PanelBar.OnSystemColorsChanged(System.EventArgs)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="P:Xceed.Chart.UIControls.PanelBar.Bands">
+      <summary>Gives you access to the collection of bands maintained by the panel bar.</summary>
+    </member>
+    <member name="P:Xceed.Chart.UIControls.PanelBar.ImageList">
+      <summary>Gets or sets the image list for the panel bar.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.Shortcut.#ctor(System.Windows.Forms.Keys,System.Windows.Forms.Keys)">
+      <summary>Creates a new keys combination with the specified key and modifiers values</summary>
+      <param name="key">The key value of the shortcut.</param>
+      <param name="modifiers">The modifiers combination of the shortcut.</param>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.Shortcut.ToString">
+      <summary>Overriden. Displays the key and modifiers values separated by "+".</summary>
+    </member>
+    <member name="P:Xceed.Chart.UIControls.Shortcut.Key">
+      <summary>Gets or sets the key value of the shortcut.</summary>
+    </member>
+    <member name="P:Xceed.Chart.UIControls.Shortcut.Modifiers">
+      <summary>Gets or sets the modifiers value of the shortcut.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.StatusBar.#ctor">
+      <summary>Creates a new StatusBar object.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.StatusBar.OnPaint(System.Windows.Forms.PaintEventArgs)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.StatusBar.UpdatePanels">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.StatusBar.Dispose(System.Boolean)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="P:Xceed.Chart.UIControls.StatusBar.CtrlPanel">
+      <summary>Gets the control panel - used to display if the Control Key is currently down.</summary>
+    </member>
+    <member name="P:Xceed.Chart.UIControls.StatusBar.MainPanel">
+      <summary>Gets the main statusbar panel.</summary>
+    </member>
+    <member name="P:Xceed.Chart.UIControls.StatusBar.ShiftPanel">
+      <summary>Gets the shift panel - used to display if the Shift Key is currently down.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.TabControl.#ctor">
+      <summary>Creates a new TabControl object.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.TabControl.OnControlAdded(System.Windows.Forms.ControlEventArgs)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.TabControl.OnControlRemoved(System.Windows.Forms.ControlEventArgs)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.TabControl.OnLoad(System.EventArgs)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.TabControl.OnPaint(System.Windows.Forms.PaintEventArgs)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.TabControl.OnResize(System.EventArgs)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.TabControl.OnSelectedTabChanged">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.TabControl.OnSystemColorsChanged(System.EventArgs)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.TabControl.Dispose(System.Boolean)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="P:Xceed.Chart.UIControls.TabControl.AllowTabReorder">
+      <summary>Gets or sets a value whether user can reorder tabs using mouse dragging</summary>
+    </member>
+    <member name="P:Xceed.Chart.UIControls.TabControl.Border">
+      <summary>Gets or sets the Border value for the tab control.</summary>
+    </member>
+    <member name="P:Xceed.Chart.UIControls.TabControl.DarkBorder">
+      <summary>Gets or sets the color value for the dark part of a three-dimensional border.</summary>
+    </member>
+    <member name="P:Xceed.Chart.UIControls.TabControl.HasArrows">
+      <summary>Gets or sets a value indicating whether the tab control will have scroll arrows.</summary>
+    </member>
+    <member name="P:Xceed.Chart.UIControls.TabControl.HasClose">
+      <summary>Gets or sets a value indicating whether the tab control will have a close button.</summary>
+    </member>
+    <member name="P:Xceed.Chart.UIControls.TabControl.ImageList">
+      <summary>Gets or sets the image list associated with the tab control.</summary>
+    </member>
+    <member name="P:Xceed.Chart.UIControls.TabControl.LightBorder">
+      <summary>Gets or sets the color value for the light part of a three-dimensional border.</summary>
+    </member>
+    <member name="P:Xceed.Chart.UIControls.TabControl.SelectedIndex">
+      <summary>Gets or sets the index of the currently selected tabpage.</summary>
+    </member>
+    <member name="P:Xceed.Chart.UIControls.TabControl.SelectedTab">
+      <summary>Gets or sets the currently selected tabpage</summary>
+    </member>
+    <member name="P:Xceed.Chart.UIControls.TabControl.ShowToolTips">
+      <summary>Gets or sets a value whether a tooltip (if any) should be displayed when the mouse hovers a tab.</summary>
+    </member>
+    <member name="P:Xceed.Chart.UIControls.TabControl.TabAlign">
+      <summary>Gets or sets the tab alignment for the tab control.</summary>
+    </member>
+    <member name="P:Xceed.Chart.UIControls.TabControl.TabColor">
+      <summary>Gets or sets the color value for a selected tab.</summary>
+    </member>
+    <member name="P:Xceed.Chart.UIControls.TabControl.TabHeight">
+      <summary>Gets or sets the tab height of the control.</summary>
+    </member>
+    <member name="P:Xceed.Chart.UIControls.TabControl.TabPages">
+      <summary>Gets the tabpage collection for that tab control.</summary>
+    </member>
+    <member name="E:Xceed.Chart.UIControls.TabControl.SelectedTabChanged">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.TabPage.#ctor">
+      <summary>Initalizes new TabPage object.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.TabPage.OnPaint(System.Windows.Forms.PaintEventArgs)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="P:Xceed.Chart.UIControls.TabPage.Caption">
+      <summary>Gets or sets the text value for the tab page</summary>
+    </member>
+    <member name="P:Xceed.Chart.UIControls.TabPage.ImageIndex">
+      <summary>Gets or sets the image index for the tabpage.</summary>
+    </member>
+    <member name="P:Xceed.Chart.UIControls.TabPage.ToolTipText">
+      <summary>Gets or sets the tooltip text value for the tab page</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.TabPageCollection.Add(Xceed.Chart.UIControls.TabPage)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.TabPageCollection.Remove(Xceed.Chart.UIControls.TabPage)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.TextPreview.#ctor">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.TextPreview.OnPaint(System.Windows.Forms.PaintEventArgs)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.TextPreview.OnResize(System.EventArgs)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="P:Xceed.Chart.UIControls.TextPreview.Text">
+      <summary>Gets or sets the text to be displayed.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.ToolBar.#ctor">
+      <summary>Creates a new toolbar.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.ToolBar.OnControlAdded(System.Windows.Forms.ControlEventArgs)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.ToolBar.OnMouseDown(System.Windows.Forms.MouseEventArgs)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.ToolBar.OnMouseLeave(System.EventArgs)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.ToolBar.OnMouseMove(System.Windows.Forms.MouseEventArgs)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.ToolBar.OnMouseUp(System.Windows.Forms.MouseEventArgs)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.ToolBar.OnPaint(System.Windows.Forms.PaintEventArgs)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.ToolBar.OnSystemColorsChanged(System.EventArgs)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.ToolBar.ToString">
+      <summary>Overriden. Returns the 'Text' property of the toolbar.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.ToolBar.Dispose(System.Boolean)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="P:Xceed.Chart.UIControls.ToolBar.Buttons">
+      <summary>Gets the  for the toolbar.</summary>
+    </member>
+    <member name="P:Xceed.Chart.UIControls.ToolBar.ButtonSize">
+      <summary>Gets or sets the button size for the 'Buttons' collection.</summary>
+    </member>
+    <member name="P:Xceed.Chart.UIControls.ToolBar.ImageList">
+      <summary>Gets or sets the ImageList associated with the toolbar.</summary>
+    </member>
+    <member name="P:Xceed.Chart.UIControls.ToolBar.Text">
+      <summary>Gets or sets the text for the toolbar.</summary>
+    </member>
+    <member name="E:Xceed.Chart.UIControls.ToolBar.ButtonClick">
+      <summary>Occurs when a toolbar button is clicked.</summary>
+    </member>
+    <member name="E:Xceed.Chart.UIControls.ToolBar.ButtonDropDown">
+      <summary>Occurs when</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.ToolBarButton.#ctor">
+      <summary>Creates a default ToolBarButton object.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.ToolBarButton.#ctor(Xceed.Chart.UIControls.Command)">
+      <summary>Creates a new ToolBarButton object and assigns it a  object.</summary>
+      <param name="command">The command to assign.</param>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.ToolBarButton.#ctor(Xceed.Chart.UIControls.ToolBarButton)">
+      <summary>Creates a new ToolBarButton using an existing one and copies its fields.</summary>
+      <param name="tbb">The existing toolbar button.</param>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.ToolBarButton.DrawDropDownArrow(System.Drawing.Graphics)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.ToolBarButton.DrawDropDownButton(System.Drawing.Graphics)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.ToolBarButton.DrawImage(System.Drawing.Graphics,System.Drawing.Rectangle,System.Boolean,System.Boolean,System.Int32,System.Int32)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.ToolBarButton.DrawPushButton(System.Drawing.Graphics)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.ToolBarButton.DrawSeparator(System.Drawing.Graphics)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.ToolBarButton.ToString">
+      <summary>Overriden. The human readable representation of the button.</summary>
+      <returns>If assigned a Command object returns command's description, otherwise returns the  of the button.</returns>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.ToolBarButton.UpdateFromCommand">
+      <summary>Depending on the  object assigned, the toolbar button sets its Style and depending on this style gets
+additional data such as ContextMenu or Control</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.ToolBarButton.Dispose(System.Boolean)">
+      <summary>Overriden. Releases all the resources used by the button.</summary>
+    </member>
+    <member name="P:Xceed.Chart.UIControls.ToolBarButton.Command">
+      <summary>Gets or sets the  object for the button.</summary>
+    </member>
+    <member name="P:Xceed.Chart.UIControls.ToolBarButton.ContextMenu">
+      <summary>Gets or sets the  the button will display. Only works if Style is set to ToolBarButtonStyle.DropDown.</summary>
+    </member>
+    <member name="P:Xceed.Chart.UIControls.ToolBarButton.Control">
+      <summary>Gest or sets the control this button will display. Only works with Style set to ToolBarButtonStyle.Control.</summary>
+    </member>
+    <member name="P:Xceed.Chart.UIControls.ToolBarButton.Enabled">
+      <summary>Gets or sets a value indicating if the button is currently enabled.</summary>
+    </member>
+    <member name="P:Xceed.Chart.UIControls.ToolBarButton.ImageIndex">
+      <summary>Gets or sets the image index for the button.</summary>
+    </member>
+    <member name="P:Xceed.Chart.UIControls.ToolBarButton.Parent">
+      <summary>Gets the  object that owns the button.</summary>
+    </member>
+    <member name="P:Xceed.Chart.UIControls.ToolBarButton.Pushed">
+      <summary>Gets or sets a value indicating whether the state of the button is pushed. Only works with Style set to ToolBarButtonStyle.Toggle.</summary>
+    </member>
+    <member name="P:Xceed.Chart.UIControls.ToolBarButton.Rectangle">
+      <summary>Gets the bounds of the button relative to its parent toolbar.</summary>
+    </member>
+    <member name="P:Xceed.Chart.UIControls.ToolBarButton.Style">
+      <summary>Gets or sets the  field of the button.</summary>
+    </member>
+    <member name="P:Xceed.Chart.UIControls.ToolBarButton.Tag">
+      <summary>Gets or sets the additional data associated with the button.</summary>
+    </member>
+    <member name="P:Xceed.Chart.UIControls.ToolBarButton.ToolTipText">
+      <summary>Gets or sets the tooltip this button will display.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.ToolBarButtonCollection.#ctor(Xceed.Chart.UIControls.ToolBar)">
+      <summary>Creates a new ToolBarButton collection.</summary>
+      <param name="toolBar">The  object that will own the collection.</param>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.ToolBarButtonCollection.Add(Xceed.Chart.UIControls.ToolBarButton)">
+      <summary>Adds an existing ToolBarButton object to the collection.</summary>
+      <returns>The index at which the button was added.</returns>
+      <param name="button">The button to add.</param>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.ToolBarButtonCollection.AddRange(Xceed.Chart.UIControls.ToolBarButton[])">
+      <summary>Adds a range of buttons.</summary>
+      <param name="buttons">The range to add.</param>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.ToolBarButtonCollection.IndexOf(Xceed.Chart.UIControls.ToolBarButton)">
+      <summary>Searches the index of an existing ToolBarButton object.</summary>
+      <returns>The index of the button if it exists in the collection, -1 otherwise.</returns>
+      <param name="button">The toolbar button to search for.</param>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.ToolBarButtonCollection.Insert(System.Int32,Xceed.Chart.UIControls.ToolBarButton)">
+      <summary>Iserts an existing ToolbarButton at a specified index.</summary>
+      <param name="index">The index at which to insert the button.</param>
+      <param name="button">The button to insert.</param>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.ToolBarButtonCollection.RegisterButton(Xceed.Chart.UIControls.ToolBarButton)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.ToolBarButtonCollection.Remove(Xceed.Chart.UIControls.ToolBarButton)">
+      <summary>Removes an existing ToolBarButton from the collection.</summary>
+      <param name="button">The toolbar button to remove.</param>
+    </member>
+    <member name="M:Xceed.Chart.UIControls.ToolBarButtonCollection.UnregisterButton(Xceed.Chart.UIControls.ToolBarButton)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="P:Xceed.Chart.UIControls.ToolBarButtonCollection.Item(System.Int32)">
+      <summary>The indexer of the collection</summary>
+    </member>
+  </members>
+</doc>

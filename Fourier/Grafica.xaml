@@ -1,0 +1,14 @@
+﻿<Window x:Name="ventana" x:Class="Fourier.Grafica"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Fourier"
+        mc:Ignorable="d"
+        Icon="./logogsa.ico"
+        Title="Grafica" Height="682.319" Width="987.49" KeyDown="Ventana_KeyDown" Loaded="Window_Loaded">
+    <Grid>
+        <Viewport3D Grid.Row="0" Grid.Column="0" Name="MainViewport" Margin="0,0,9.8,-0.2" />
+    </Grid>
+
+</Window>

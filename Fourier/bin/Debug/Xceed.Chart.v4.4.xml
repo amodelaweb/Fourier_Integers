@@ -1,0 +1,644 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>Xceed.Chart.v4.4</name>
+  </assembly>
+  <members>
+    <member name="T:Xceed.Chart.ChartGridButtonsMask">
+      <summary>A bitmask enumeration controlling the visible chart grid buttons</summary>
+    </member>
+    <member name="F:Xceed.Chart.ChartGridButtonsMask.SelectChart">
+      <summary>The select chart button</summary>
+    </member>
+    <member name="F:Xceed.Chart.ChartGridButtonsMask.SelectSeries">
+      <summary>The select series button</summary>
+    </member>
+    <member name="F:Xceed.Chart.ChartGridButtonsMask.ShowInteractivity">
+      <summary>Show interactivity data series button</summary>
+    </member>
+    <member name="F:Xceed.Chart.ChartGridButtonsMask.ShowAppearance">
+      <summary>Show appearance series button</summary>
+    </member>
+    <member name="F:Xceed.Chart.ChartGridButtonsMask.UpdateSeriesFromGrid">
+      <summary>Update series from grid button</summary>
+    </member>
+    <member name="F:Xceed.Chart.ChartGridButtonsMask.UpdateGridFromSeries">
+      <summary>Update grid from series button</summary>
+    </member>
+    <member name="F:Xceed.Chart.ChartGridButtonsMask.BindToChart">
+      <summary>Binds the chart to the grid control</summary>
+    </member>
+    <member name="F:Xceed.Chart.ChartGridButtonsMask.All">
+      <summary>All buttons must be displayed</summary>
+    </member>
+    <member name="T:Xceed.Chart.ChartToolbarButtons">
+      <summary>Enumeration identifing the available chart buttons</summary>
+    </member>
+    <member name="F:Xceed.Chart.ChartToolbarButtons.Load">
+      <summary>Loads the component state from file</summary>
+    </member>
+    <member name="F:Xceed.Chart.ChartToolbarButtons.Save">
+      <summary>Saves the component state to file</summary>
+    </member>
+    <member name="F:Xceed.Chart.ChartToolbarButtons.ImageExport">
+      <summary>Shows the import export dialog</summary>
+    </member>
+    <member name="F:Xceed.Chart.ChartToolbarButtons.Print">
+      <summary>Shows the build in print manager</summary>
+    </member>
+    <member name="F:Xceed.Chart.ChartToolbarButtons.ActiveChart">
+      <summary>Changes the active chart</summary>
+    </member>
+    <member name="F:Xceed.Chart.ChartToolbarButtons.Wizard">
+      <summary>Shows the chart control Wizard</summary>
+    </member>
+    <member name="F:Xceed.Chart.ChartToolbarButtons.ChartEditor">
+      <summary>Shows the chart control Editor</summary>
+    </member>
+    <member name="F:Xceed.Chart.ChartToolbarButtons.RotateLeft">
+      <summary>Makes the current controlled object to rotate left by increasing the Rotation property of its N3DView object with the value of the toolbar’s RotationStep
+property.</summary>
+    </member>
+    <member name="F:Xceed.Chart.ChartToolbarButtons.RotateRight">
+      <summary>Makes the current controlled object to rotate right by decreasing the Rotation property of its N3DView object with the value of the toolbar’s RotationStep
+property.</summary>
+    </member>
+    <member name="F:Xceed.Chart.ChartToolbarButtons.ElevationUp">
+      <summary>Makes the current controlled object to rotate around the x axis by decreasing the Rotation property of its N3DView object with the value of the toolbar’s
+ElevationStep property.</summary>
+    </member>
+    <member name="F:Xceed.Chart.ChartToolbarButtons.ElevationDown">
+      <summary>Makes the current controlled object to around the x axis by increasing the Rotation property of its N3DView object with the value of the toolbar’s
+ElevationStep property.</summary>
+    </member>
+    <member name="F:Xceed.Chart.ChartToolbarButtons.ZoomIn">
+      <summary>Makes the current controlled object to zoom in by increasing the Zoom property of its N3DView object with the value of the toolbar’s ZoomStep property.</summary>
+    </member>
+    <member name="F:Xceed.Chart.ChartToolbarButtons.ZoomOut">
+      <summary>Makes the current controlled object to zoom out by decreasing the Zoom property of its N3DView object with the value of the toolbar’s ZoomStep property.</summary>
+    </member>
+    <member name="F:Xceed.Chart.ChartToolbarButtons.ViewerRotationLeft">
+      <summary>Decreases the ViewerRotation property of the current controlled object’s N3DView object with the value of the toolbar’s ViewerRotationStep property.</summary>
+    </member>
+    <member name="F:Xceed.Chart.ChartToolbarButtons.ViewerRotationRight">
+      <summary>Increases the ViewerRotation property of the current controlled object’s N3DView object with the value of the toolbar’s ViewerRotationStep property.</summary>
+    </member>
+    <member name="F:Xceed.Chart.ChartToolbarButtons.OffsetXLeft">
+      <summary>Makes the current controlled object to move to left by decreasing the OffsetX property of its N3DView object with the value of the toolbar’s OffsetXStep
+property.</summary>
+    </member>
+    <member name="F:Xceed.Chart.ChartToolbarButtons.OffsetXRight">
+      <summary>Makes the current controlled object to move to right by increasing the OffsetX property of its N3DView object with the value of the toolbar’s OffsetXStep
+property.</summary>
+    </member>
+    <member name="F:Xceed.Chart.ChartToolbarButtons.OffsetYUp">
+      <summary>Makes the current controlled object to move up by increasing the OffsetY property of its N3DView object with the value of the toolbar’s OffsetYStep property.</summary>
+    </member>
+    <member name="F:Xceed.Chart.ChartToolbarButtons.OffsetYDown">
+      <summary>Makes the current controlled object to move down by decreasing the OffsetY property of its N3DView object with the value of the toolbar’s OffsetYStep property.</summary>
+    </member>
+    <member name="F:Xceed.Chart.ChartToolbarButtons.IncreaseChartWidth">
+      <summary>Increases the chart width</summary>
+    </member>
+    <member name="F:Xceed.Chart.ChartToolbarButtons.IncreaseChartHeight">
+      <summary>Increases the chart height</summary>
+    </member>
+    <member name="F:Xceed.Chart.ChartToolbarButtons.IncreaseChartDepth">
+      <summary>Increases the chart depth</summary>
+    </member>
+    <member name="F:Xceed.Chart.ChartToolbarButtons.DecreaseChartWidth">
+      <summary>Decreases the chart width</summary>
+    </member>
+    <member name="F:Xceed.Chart.ChartToolbarButtons.DecreaseChartHeight">
+      <summary>Decreases the chart height</summary>
+    </member>
+    <member name="F:Xceed.Chart.ChartToolbarButtons.DecreaseChartDepth">
+      <summary>Decreases the chart depth</summary>
+    </member>
+    <member name="F:Xceed.Chart.ChartToolbarButtons.Orthogonal">
+      <summary>Sets orthogonal projection for the currently controlled chart.</summary>
+    </member>
+    <member name="F:Xceed.Chart.ChartToolbarButtons.Perspective">
+      <summary>Sets perspective projection for the currently controlled chart</summary>
+    </member>
+    <member name="F:Xceed.Chart.ChartToolbarButtons.View2D">
+      <summary>Sets 2-dimensional view for the currently controlled chart</summary>
+    </member>
+    <member name="F:Xceed.Chart.ChartToolbarButtons.PredefinedProjection">
+      <summary>Applies a predefined projection the the currently controlled chart</summary>
+    </member>
+    <member name="F:Xceed.Chart.ChartToolbarButtons.MouseDisabled">
+      <summary>Sets the mouse drag mode to Disabled</summary>
+    </member>
+    <member name="F:Xceed.Chart.ChartToolbarButtons.MouseTrackball">
+      <summary>Sets the mouse drag mode to Trackball mode.</summary>
+    </member>
+    <member name="F:Xceed.Chart.ChartToolbarButtons.MouseZoom">
+      <summary>Sets the mouse drag mode to Zoom mode.</summary>
+    </member>
+    <member name="F:Xceed.Chart.ChartToolbarButtons.MouseOffset">
+      <summary>Sets the mouse drag mode to Offset mode.</summary>
+    </member>
+    <member name="F:Xceed.Chart.ChartToolbarButtons.PredefinedLightScheme">
+      <summary>Applies a predefined light scheme</summary>
+    </member>
+    <member name="F:Xceed.Chart.ChartToolbarButtons.ImageBorder">
+      <summary>Applies a predefiened image border</summary>
+    </member>
+    <member name="F:Xceed.Chart.ChartToolbarButtons.BackgroundFillEffect">
+      <summary>Controls the background fill effect</summary>
+    </member>
+    <member name="F:Xceed.Chart.ChartToolbarButtons.RenderDevice">
+      <summary>Switches between OpenGL and GDI+ rendering</summary>
+    </member>
+    <member name="F:Xceed.Chart.ChartToolbarButtons.Separator">
+      <summary>The separator does not receive user input. It is used to separate different items in the toolbar.</summary>
+    </member>
+    <member name="T:Xceed.Chart.ChartControl">
+      <summary>The ChartControl class represents Xceed Chart for .NET used in Windows forms.</summary>
+    </member>
+    <member name="T:Xceed.Chart.ChartControlState">
+      <summary>Controls the serialization and deserialization of the ChartControl state.</summary>
+    </member>
+    <member name="T:Xceed.Chart.ChartGridControl">
+      <summary>A grid control which can be used for the editing of the chart control data series</summary>
+    </member>
+    <member name="T:Xceed.Chart.ChartToolbarButtonsArray">
+      <summary>Controls the available chart toolbar buttons</summary>
+    </member>
+    <member name="T:Xceed.Chart.ChartToolbarControl">
+      <summary>A toolbar control which can be used for editing of the chart control.</summary>
+    </member>
+    <member name="T:Xceed.Chart.ChartWizard">
+      <summary>The ChartWizard class offers a handy user interface for fast editing of charts.</summary>
+    </member>
+    <member name="T:Xceed.Chart.Licenser">
+      <summary>Class which is used to register Xceed Chart for WinForms.</summary>
+    </member>
+    <member name="T:Xceed.Chart.PrintEventArgs">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="T:Xceed.Chart.PrintManager">
+      <summary>This object exposes the printing support functionality of Xceed Chart for WinForms.</summary>
+    </member>
+    <member name="M:Xceed.Chart.ChartControl.#ctor">
+      <summary>Creates a new instance of Xceed Chart for Winforms.</summary>
+    </member>
+    <member name="M:Xceed.Chart.ChartControl.Clear">
+      <summary>Clears the current state of the chart control.</summary>
+    </member>
+    <member name="M:Xceed.Chart.ChartControl.GetControlViewport">
+      <summary>Returns the viewport of the control.</summary>
+    </member>
+    <member name="M:Xceed.Chart.ChartControl.HitTest(System.Int32,System.Int32)">
+      <summary>Returns a HitTestResult object describing the object at the given window coordinates.</summary>
+    </member>
+    <member name="M:Xceed.Chart.ChartControl.OnPaintBackground(System.Windows.Forms.PaintEventArgs)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.ChartControl.ProcessDialogKey(System.Windows.Forms.Keys)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.ChartControl.Refresh">
+      <summary>Forces the control to redraw itself.</summary>
+    </member>
+    <member name="M:Xceed.Chart.ChartControl.ShowChartsEditor">
+      <summary>Invokes the visual Charts collection editor</summary>
+      <returns>true if the user clicked on the ok button, false otherwise</returns>
+    </member>
+    <member name="M:Xceed.Chart.ChartControl.ShowEditor">
+      <summary>Shows the Xceed Chart for WinForms control editor</summary>
+      <returns>true if the user clicked on the ok button, false otherwise</returns>
+    </member>
+    <member name="M:Xceed.Chart.ChartControl.ShowInteractivityOperationsEditor">
+      <summary>Invokes the visual Interactivity operations collection editor</summary>
+      <returns>true if the user clicked on the ok button, false otherwise</returns>
+    </member>
+    <member name="M:Xceed.Chart.ChartControl.ShowLabelsEditor">
+      <summary>Invokes the visual Labels collection editor</summary>
+      <returns>true if the user clicked on the ok button, false otherwise</returns>
+    </member>
+    <member name="M:Xceed.Chart.ChartControl.ShowLegendsEditor">
+      <summary>Invokes the visual Legends collection editor</summary>
+      <returns>true if the user clicked on the ok button, false otherwise</returns>
+    </member>
+    <member name="M:Xceed.Chart.ChartControl.ShowSettingsEditor">
+      <summary>Invokes the visual Settings editor</summary>
+      <returns>true if the user clicked on the ok button, false otherwise</returns>
+    </member>
+    <member name="M:Xceed.Chart.ChartControl.ShowWatermarksEditor">
+      <summary>Invokes the visual Watermarks collection editor</summary>
+      <returns>true if the user clicked on the ok button, false otherwise</returns>
+    </member>
+    <member name="M:Xceed.Chart.ChartControl.UpdateFromDataSources">
+      <summary>Updates charts from the data sources.</summary>
+    </member>
+    <member name="M:Xceed.Chart.ChartControl.Dispose(System.Boolean)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="P:Xceed.Chart.ChartControl.Background">
+      <summary>Gives you access to the Background object applied on the chart background.</summary>
+    </member>
+    <member name="P:Xceed.Chart.ChartControl.BackgroundImage">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="P:Xceed.Chart.ChartControl.Charts">
+      <summary>Retrieves the charts collection of the component.</summary>
+    </member>
+    <member name="P:Xceed.Chart.ChartControl.Cursor">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="P:Xceed.Chart.ChartControl.DataBindingManager">
+      <summary>Controls the database integration of the chart control.</summary>
+    </member>
+    <member name="P:Xceed.Chart.ChartControl.ImageExport">
+      <summary>Returns a ImageExport object exposing several image export functions.</summary>
+    </member>
+    <member name="P:Xceed.Chart.ChartControl.InteractivityOperations">
+      <summary>Retrieves the interactivity operations collection of the component.</summary>
+    </member>
+    <member name="P:Xceed.Chart.ChartControl.Labels">
+      <summary>Retrieves the labels collection of the component.</summary>
+    </member>
+    <member name="P:Xceed.Chart.ChartControl.Legends">
+      <summary>Retrieves the legends collection of the component.</summary>
+    </member>
+    <member name="P:Xceed.Chart.ChartControl.PrintManager">
+      <summary>Retrieves the chart print manager.</summary>
+    </member>
+    <member name="P:Xceed.Chart.ChartControl.Settings">
+      <summary>Retrieves the chart settings related to rendering.</summary>
+    </member>
+    <member name="P:Xceed.Chart.ChartControl.State">
+      <summary>Gives access to the state object of the component. The state object can be used to save/load control state through binary files.</summary>
+    </member>
+    <member name="P:Xceed.Chart.ChartControl.Watermarks">
+      <summary>Retrieves the watermarks collection of the component.</summary>
+    </member>
+    <member name="P:Xceed.Chart.ChartControl.Wizard">
+      <summary>Gives access to the chart wizard object.</summary>
+    </member>
+    <member name="E:Xceed.Chart.ChartControl.ViewChange">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.ChartGridControl.#ctor">
+      <summary>Creates a new instance of the class with default settings</summary>
+    </member>
+    <member name="M:Xceed.Chart.ChartGridControl.OnDataSourceChanged(System.EventArgs)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.ChartGridControl.OnRowChanged(System.Data.DataRowChangeEventArgs)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.ChartGridControl.UpdateFromChart">
+      <summary>Updates the grid control from the chart control specified by the ChartControl property</summary>
+    </member>
+    <member name="M:Xceed.Chart.ChartGridControl.Dispose(System.Boolean)">
+      <summary>Clean up any resources being used.</summary>
+    </member>
+    <member name="P:Xceed.Chart.ChartGridControl.BindToChart">
+      <summary>Binds the Grid to the Chart control</summary>
+    </member>
+    <member name="P:Xceed.Chart.ChartGridControl.ChartControl">
+      <summary>The grid control can be attached to a chart control. This property specifies the currently edited chart control</summary>
+    </member>
+    <member name="P:Xceed.Chart.ChartGridControl.ChartGridButtonsMask">
+      <summary>A bitmask controlling the displayed toolbar buttons</summary>
+    </member>
+    <member name="P:Xceed.Chart.ChartGridControl.DataSeriesGrid">
+      <summary>Gives you access to the data series grid.</summary>
+    </member>
+    <member name="P:Xceed.Chart.ChartGridControl.ToolbarVisible">
+      <summary>Controls the visibility of the toolbar</summary>
+    </member>
+    <member name="F:Xceed.Chart.ChartGridControl.BindToChartButton">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.ChartGridControl.Grid">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.ChartGridControl.GridToolBar">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.ChartGridControl.ImageList">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.ChartGridControl.m_bBindToChart">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.ChartGridControl.m_bToolbarVisible">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.ChartGridControl.m_ChartControl">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.ChartGridControl.m_ChartGridButtonsMask">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.ChartGridControl.m_nCurChart">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.ChartGridControl.m_nCurSeries">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.ChartGridControl.SeriesMenu">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.ChartGridControl.ShowAppearanceButton">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.ChartGridControl.ShowInteractivityButton">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.ChartGridControl.UpdateFromSeriesButton">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.ChartGridControl.UpdateSeriesButton">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.ChartToolbarButtonsArray.#ctor(Xceed.Chart.ChartToolbarControl)">
+      <summary>creates an empty button configuration</summary>
+    </member>
+    <member name="M:Xceed.Chart.ChartToolbarButtonsArray.Add(Xceed.Chart.ChartToolbarButtons)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.ChartToolbarButtonsArray.Clear">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.ChartToolbarButtonsArray.Clone">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.ChartToolbarButtonsArray.Contains(Xceed.Chart.ChartToolbarButtons)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.ChartToolbarButtonsArray.IndexOf(Xceed.Chart.ChartToolbarButtons)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.ChartToolbarButtonsArray.Insert(System.Int32,Xceed.Chart.ChartToolbarButtons)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.ChartToolbarButtonsArray.OnInsert(System.Int32,System.Object)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.ChartToolbarButtonsArray.OnRemove(System.Int32,System.Object)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.ChartToolbarButtonsArray.OnSet(System.Int32,System.Object,System.Object)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.ChartToolbarButtonsArray.OnValidate(System.Object)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.ChartToolbarButtonsArray.Remove(Xceed.Chart.ChartToolbarButtons)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.ChartToolbarControl.#ctor">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.ChartToolbarControl.AddMenuItem(Xceed.Chart.UIControls.PopupWindow,System.String)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.ChartToolbarControl.CreateImageList(System.Windows.Forms.ImageList,System.String,System.Boolean)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.ChartToolbarControl.GetActiveChart">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.ChartToolbarControl.GetButtonFromId(Xceed.Chart.ChartToolbarButtons)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.ChartToolbarControl.OnToolbarButtonClicked(Xceed.Chart.UIControls.ToolBarButton,System.EventArgs)">
+      <summary>Handles the ButtonClicked event of the toolbar.</summary>
+      <returns>true if the event is handled, false if the button was not from the predefined set and a custom handling is required</returns>
+    </member>
+    <member name="M:Xceed.Chart.ChartToolbarControl.OnToolbarButtonDropDown(Xceed.Chart.UIControls.ToolBarButton,System.EventArgs)">
+      <summary>Handles the ButtonDropDown event of the toolbar.</summary>
+      <returns>true if the event is handled, false if the button does not require repopulation of its drop down menu</returns>
+    </member>
+    <member name="M:Xceed.Chart.ChartToolbarControl.ResetDefaults">
+      <summary>Resets the default toolbar buttons configuration</summary>
+    </member>
+    <member name="M:Xceed.Chart.ChartToolbarControl.SetBackgroundFrame(System.Int32)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.ChartToolbarControl.SetRenderDevice(System.Int32)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.ChartToolbarControl.UpdateActiveChartMenu">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.ChartToolbarControl.UpdateRenderDeviceMenu">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="P:Xceed.Chart.ChartToolbarControl.ButtonsConfig">
+      <summary>Controls the button configuration of the toolbar.</summary>
+    </member>
+    <member name="P:Xceed.Chart.ChartToolbarControl.ChartControl">
+      <summary>Specifies the controlled chart object.</summary>
+    </member>
+    <member name="P:Xceed.Chart.ChartToolbarControl.ChartSizeStep">
+      <summary>Step for the Chart size commands (Increase and Decrease).</summary>
+    </member>
+    <member name="P:Xceed.Chart.ChartToolbarControl.ElevationStep">
+      <summary>Step for the ElevationUp and ElevationDown commands.</summary>
+    </member>
+    <member name="P:Xceed.Chart.ChartToolbarControl.OffsetStep">
+      <summary>Step for the Offset commands.</summary>
+    </member>
+    <member name="P:Xceed.Chart.ChartToolbarControl.RotationStep">
+      <summary>Step for the RotateLeft and RotateRight commands.</summary>
+    </member>
+    <member name="P:Xceed.Chart.ChartToolbarControl.ZoomStep">
+      <summary>Step for the Zoom commands.</summary>
+    </member>
+    <member name="F:Xceed.Chart.ChartToolbarControl.m_ActiveChartMenu">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.ChartToolbarControl.m_arrPredefinedButtons">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.ChartToolbarControl.m_BorderMenu">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.ChartToolbarControl.m_ButtonConfig">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.ChartToolbarControl.m_ChartControl">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.ChartToolbarControl.m_fChartSizeStep">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.ChartToolbarControl.m_fElevationStep">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.ChartToolbarControl.m_fOffsetStep">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.ChartToolbarControl.m_fRotationStep">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.ChartToolbarControl.m_fZoomStep">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.ChartToolbarControl.m_ImageListS">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.ChartToolbarControl.m_LightSchemeMenu">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.ChartToolbarControl.m_nActiveChart">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.ChartToolbarControl.m_nBorderType">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.ChartToolbarControl.m_nLightScheme">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.ChartToolbarControl.m_nProjection">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.ChartToolbarControl.m_nRenderDevice">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.ChartToolbarControl.m_ProjectionMenu">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.ChartToolbarControl.m_RenderDeviceMenu">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.ChartWizard.#ctor(Xceed.Chart.ChartControl)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.ChartWizard.ShowDialog">
+      <summary>Shows the chart wizard dialog.</summary>
+    </member>
+    <member name="F:Xceed.Chart.ChartWizard.m_Control">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="P:Xceed.Chart.Licenser.LicenseKey">
+      <summary>Gets or sets the license key used to license this product.</summary>
+    </member>
+    <member name="M:Xceed.Chart.PrintEventArgs.#ctor(System.Drawing.Printing.PrintDocument)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.PrintEventArgs.m_printDocument">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.PrintManager.Dispose">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.PrintManager.EnumerateInstalledPrinters(System.Collections.ArrayList)">
+      <summary>Enumerates the installed printers and returns the index of the default printer.</summary>
+    </member>
+    <member name="M:Xceed.Chart.PrintManager.EnumeratePaperSizes(System.Int32,System.Collections.ArrayList)">
+      <summary>Enumerates the paper sizes supported by the specified printer.</summary>
+    </member>
+    <member name="M:Xceed.Chart.PrintManager.EnumeratePaperSources(System.Int32,System.Collections.ArrayList)">
+      <summary>Enumerates the paper sources supported by the specified printer.</summary>
+    </member>
+    <member name="M:Xceed.Chart.PrintManager.GetInfoPrintDocument">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.PrintManager.OnBeforePrintPage(System.Drawing.Printing.PrintPageEventArgs)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.PrintManager.OnPrepareDocument(System.Drawing.Printing.PrintDocument)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.PrintManager.OnPrintPage(System.Drawing.Printing.PrintPageEventArgs)">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="M:Xceed.Chart.PrintManager.Print">
+      <summary>Prints the chart.</summary>
+    </member>
+    <member name="M:Xceed.Chart.PrintManager.RenderToBitmap(System.Drawing.Printing.PrintDocument)">
+      <summary>Returns a bitmap containing the chart image scaled according to the settings of the PrintManager.</summary>
+    </member>
+    <member name="M:Xceed.Chart.PrintManager.ShowDialog">
+      <summary>Shows the build in print manager dialog.</summary>
+    </member>
+    <member name="M:Xceed.Chart.PrintManager.UpdateChartImage(System.Drawing.Printing.PrintDocument)">
+      <summary>Updates the cached chart image.</summary>
+    </member>
+    <member name="P:Xceed.Chart.PrintManager.AutomaticQualityScale">
+      <summary>Whether or not the control will automatically determine the quality scaling.</summary>
+    </member>
+    <member name="P:Xceed.Chart.PrintManager.Copies">
+      <summary>The number of copies to print.</summary>
+    </member>
+    <member name="P:Xceed.Chart.PrintManager.Landscape">
+      <summary>Defines whether the paper orientation is Portrait or Landscape.</summary>
+    </member>
+    <member name="P:Xceed.Chart.PrintManager.Margins">
+      <summary>The margins of the printed chart.</summary>
+    </member>
+    <member name="P:Xceed.Chart.PrintManager.PaperSize">
+      <summary>The name of the paper size the chart will print with.</summary>
+    </member>
+    <member name="P:Xceed.Chart.PrintManager.PaperSource">
+      <summary>The paper source that the chart will use when printing.</summary>
+    </member>
+    <member name="P:Xceed.Chart.PrintManager.PrintBackgroundFrame">
+      <summary>Whether or not to print the frame applied on the chart background.</summary>
+    </member>
+    <member name="P:Xceed.Chart.PrintManager.PrinterName">
+      <summary>The name of the printer used for printing.</summary>
+    </member>
+    <member name="P:Xceed.Chart.PrintManager.PrintGrayScale">
+      <summary>Whether or not to convert the printed image to shades of gray.</summary>
+    </member>
+    <member name="P:Xceed.Chart.PrintManager.QualityScale">
+      <summary>Specifies an internal scaling to be applied when printing.</summary>
+    </member>
+    <member name="P:Xceed.Chart.PrintManager.Scale2DObjects">
+      <summary>Scaling of the two dimensional elements of the chart.</summary>
+    </member>
+    <member name="F:Xceed.Chart.PrintManager.m_bAutomaticQualityScale">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.PrintManager.m_bLandscape">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.PrintManager.m_bPrintBackgroundFrame">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.PrintManager.m_bPrintGrayScale">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.PrintManager.m_ChartBitmap">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.PrintManager.m_fQualityScale">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.PrintManager.m_fScale2DObjects">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.PrintManager.m_InfoPrintDocument">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.PrintManager.m_Margins">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.PrintManager.m_nCopies">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.PrintManager.m_sPaperSize">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.PrintManager.m_sPaperSource">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="F:Xceed.Chart.PrintManager.m_sPrinterName">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="E:Xceed.Chart.PrintManager.BeforePrintPage">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+    <member name="E:Xceed.Chart.PrintManager.PrepareDocument">
+      <summary>This member is reserved for internal use and is not intended to be used directly from your code.</summary>
+    </member>
+  </members>
+</doc>
